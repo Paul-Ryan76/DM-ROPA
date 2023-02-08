@@ -1,0 +1,191 @@
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix dpv-gdpr: <https://w3id.org/dpv/dpv-skos/dpv-gdpr#> .
+@prefix dpv-pd: <https://w3id.org/dpv/dpv-skos/dpv-pd#> .
+@prefix dpv-tech: <https://w3id.org/dpv/dpv-skos/dpv-tech#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <https://www.w3.org/TR/owl-time/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix : <https://w3id.org/dpcat/examples/UPSILON#> .
+
+
+
+
+### UPSILON vocab ###
+
+
+
+
+# Personal Data
+upsilon:DataOfStaffCandidates a dpv:PersonalData ;
+    skos:prefLabel "Data of Staff Candidates"@en ;
+    skos:editorialNote """(staff selection): - Data identifying the applicant and contact details (name, first name, gender, nationality, date and place of birth, postal and e-mail address, telephone number, mobile telephone number, fax number). - Data derived from the candidate’s application and CV, his/her motivation letter and other supporting documents submitted, namely current entity of assignment or current employer EUI in case of inter-institutional and for external applicants: institution/company and department, country of residence, as well as function group, grade, step, seniority in the current job, type of post of the person, type of post of the current job, in case of AST officials applying for AD vacancies: information related to certification procedure - Documents requested in the vacancy notice to verify whether the application is admissible or not: a curriculum vitae, a covering letter or motivation letters and other supporting documents submitted by the applicants including information on education, competencies and language skills, diplomas and certificates, professional experience (including names of previous and current employers, duration of employment, level of responsibility), the last two staff evaluation reports and a certificate proving the applicant’s status and grade in case of interinstitutional transfers On their own initiative, applicants may send documents such as letters of recommendation, certificates showing language competences, etc. - Information related to potential conflict of interest is also processed (the Conflict of Interests Form)."""@en ;
+    skos:narrowerTransitive upsilon:JobApplicantCV .
+upsilon:JobApplicantCV a dpv:PersonalData ;
+    skos:narrowerTransitive upsilon:JobApplicantName,
+                            upsilon:JobApplicantGender,
+                            upsilon:JobApplicantBirthDate,
+                            upsilon:JobApplicantBirthPlace,
+                            upsilon:JobApplicantContact,
+                            upsilon:JobApplicantProfessionalExperience,
+                            upsilon:JobApplicantProfessionalExperience,
+                            upsilon:JobApplicantEducationalQualifications ;
+    dpv:hasDataSource upsilon:JobApplicants ;
+    skos:prefLabel "Job Applicant CV"@en .
+upsilon:JobApplicantName a dpv:PersonalData, dpv:DerivedPersonalData ;
+    skos:broaderTransitive dpv-pd:Name ;
+    dpv:hasDataSource upsilon:JobApplicantCV ;
+    skos:prefLabel "Name"@en .
+upsilon:JobApplicantGender a dpv:PersonalData, dpv:DerivedPersonalData ;
+    skos:broaderTransitive dpv-pd:Gender ;
+    dpv:hasDataSource upsilon:JobApplicantCV ;
+    skos:prefLabel "Gender"@en .
+upsilon:JobApplicantBirthDate a dpv:PersonalData, dpv:DerivedPersonalData ;
+    skos:broaderTransitive dpv-pd:BirthDate ;
+    dpv:hasDataSource upsilon:JobApplicantCV ;
+    skos:prefLabel "BirthDate"@en .
+upsilon:JobApplicantBirthPlace a dpv:PersonalData, dpv:DerivedPersonalData ;
+    skos:broaderTransitive dpv-pd:BirthPlace ;
+    dpv:hasDataSource upsilon:JobApplicantCV ;
+    skos:prefLabel "BirthPlace"@en .
+upsilon:JobApplicantContact a dpv:PersonalData, dpv:DerivedPersonalData ;
+    skos:broaderTransitive dpv-pd:Contact ;
+    dpv:hasDataSource upsilon:JobApplicantCV ;
+    skos:prefLabel "Contact"@en .
+upsilon:JobApplicantProfessionalExperience a dpv:PersonalData, dpv:DerivedPersonalData ;
+    skos:broaderTransitive dpv-pd:Job ;
+    dpv:hasDataSource upsilon:JobApplicantCV ;
+    skos:prefLabel "Professional Experience"@en .
+upsilon:JobApplicantProfessionalExperience a dpv:PersonalData, dpv:DerivedPersonalData ;
+    skos:broaderTransitive dpv-pd:Job ;
+    dpv:hasDataSource upsilon:JobApplicantCV ;
+    skos:prefLabel "Professional Experience"@en .
+upsilon:JobApplicantEducationalQualifications a dpv:PersonalData, dpv:DerivedPersonalData ;
+    skos:broaderTransitive dpv-pd:EducationalQualification ;
+    dpv:hasDataSource upsilon:JobApplicantCV ;
+    skos:prefLabel "Educational Qualifications"@en .
+upsilon:JobApplicantDisability a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:HealthData ;
+    dpv:hasDataSource upsilon:JobApplicants ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Disability"@en .
+upsilon:JobApplicantSpecialHealthNeeds a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:HealthData ;
+    dpv:hasDataSource upsilon:JobApplicants ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Special Health Needs"@en .
+upsilon:CCTV_Image a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:HealthData ;
+    dpv:hasDataSource upsilon:JobApplicants ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Special Health Needs"@en .
+upsilon:FinancialData a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:HealthData ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Financial Data"@en. 
+upsilon:CreditData a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Credit ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Financial Data"@en. 
+upsilon:Authenticating a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Authenticating ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Authenticating Data"@en. 
+upsilon:Behavioral  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Behavioral  ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Behavioral Data"@en. 
+upsilon:Communication a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Communication ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Communication Data "@en. 
+upsilon:Contact  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Contact  ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Contact Data"@en. 
+upsilon:Credit a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Credit ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Credit Data"@en. 
+upsilon:Demographic  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Demographic ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Demographic Data"@en. 
+upsilon:DeviceBased  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:DeviceBased  ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Device Based Data "@en. 
+upsilon:Family  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Family ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Family Data"@en. 
+upsilon:FinancialAccount  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:FinancialAccount ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Financial Account Data"@en. 
+upsilon:Identifying a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Identifying ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Identifying Data"@en. 
+upsilon:KnowledgeBelief  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:KnowledgeBelief ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Knowledge Belief Data"@en. 
+upsilon:LifeHistory a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:LifeHistory ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Life History Data"@en. 
+upsilon:Location a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Location ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Location Data"@en. 
+upsilon:MedicalHealth a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:MedicalHealth ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Medical Health Data"@en. 
+upsilon:Preference  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Preference ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Preference Data"@en. 
+upsilon:Professional a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Professional ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Professional Data"@en. 
+upsilon:SocialNetwork a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:SocialNetwork ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Social Network Data"@en. 
+upsilon:Transactional  a dpv:PersonalData ;
+    skos:broaderTransitive dpv-pd:Transactional ;
+    dpv:hasDataSource upsilon:DataSubject ;
+    dpv:hasContext dpv:Optional ;
+    skos:prefLabel "Transactional Data"@en. 
+
+

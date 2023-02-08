@@ -1,0 +1,594 @@
+@base <http://example.com/base/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+upsilon:Academy%20HQ a dpv:TechnicalMeasure;
+  skos:prefLabel "Academy HQ";
+  rdfs:label "Academy HQ";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:CybersecurityAssessment "Not applicable";
+  dpv:ActivityMonitoring "Not applicable" .
+
+upsilon:Adobe%20Sign a dpv:TechnicalMeasure;
+  skos:prefLabel "Adobe Sign";
+  rdfs:label "Adobe Sign";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:AYA%20website a dpv:TechnicalMeasure;
+  skos:prefLabel "AYA website";
+  rdfs:label "AYA website";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:BCT a dpv:TechnicalMeasure;
+  skos:prefLabel "BCT";
+  rdfs:label "BCT";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:BI%20Broadcasting a dpv:TechnicalMeasure;
+  skos:prefLabel "BI Broadcasting";
+  rdfs:label "BI Broadcasting";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Cache%20EPOD a dpv:TechnicalMeasure;
+  skos:prefLabel "Cache EPOD";
+  rdfs:label "Cache EPOD";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Cache%20OCR a dpv:TechnicalMeasure;
+  skos:prefLabel "Cache OCR";
+  rdfs:label "Cache OCR";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Cache%20Time%20Management a dpv:TechnicalMeasure;
+  skos:prefLabel "Cache Time Management";
+  rdfs:label "Cache Time Management";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Cache%20WMS a dpv:TechnicalMeasure;
+  skos:prefLabel "Cache WMS";
+  rdfs:label "Cache WMS";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Carin%20call%20recording%20system a dpv:TechnicalMeasure;
+  skos:prefLabel "Carin call recording system";
+  rdfs:label "Carin call recording system";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:CCTV%20system a dpv:TechnicalMeasure;
+  skos:prefLabel "CCTV system";
+  rdfs:label "CCTV system";
+  dpv:hasEncryption "No";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Clarity2go a dpv:TechnicalMeasure;
+  skos:prefLabel "Clarity2go";
+  rdfs:label "Clarity2go";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:ConCur%20Expense%20system a dpv:TechnicalMeasure;
+  skos:prefLabel "ConCur Expense system";
+  rdfs:label "ConCur Expense system";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Credit%20Card%20Machine a dpv:TechnicalMeasure;
+  skos:prefLabel "Credit Card Machine";
+  rdfs:label "Credit Card Machine";
+  dpv:hasEncryption "Not sure";
+  dpv:hasEncryptionAtRest "Not sure";
+  dpv:hasEncryptionInTransit "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Crowdstrike%20EDR a dpv:TechnicalMeasure;
+  skos:prefLabel "Crowdstrike EDR";
+  rdfs:label "Crowdstrike EDR";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:CybersecurityAssessment "Not applicable";
+  dpv:ActivityMonitoring "Not applicable" .
+
+upsilon:Docusign a dpv:TechnicalMeasure;
+  skos:prefLabel "Docusign";
+  rdfs:label "Docusign";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Eir%20Mobile%20Phone%20service a dpv:TechnicalMeasure;
+  skos:prefLabel "Eir Mobile Phone service";
+  rdfs:label "Eir Mobile Phone service";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:ESS a dpv:TechnicalMeasure;
+  skos:prefLabel "ESS";
+  rdfs:label "ESS";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Flow%20Forma%20Ticket%20System a dpv:TechnicalMeasure;
+  skos:prefLabel "Flow Forma Ticket System";
+  rdfs:label "Flow Forma Ticket System";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:HPE%20Simplivity%20Cloud%20Servers a dpv:TechnicalMeasure;
+  skos:prefLabel "HPE Simplivity Cloud Servers";
+  rdfs:label "HPE Simplivity Cloud Servers";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Inther%20System a dpv:TechnicalMeasure;
+  skos:prefLabel "Inther System";
+  rdfs:label "Inther System";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Iwacs a dpv:TechnicalMeasure;
+  skos:prefLabel "Iwacs";
+  rdfs:label "Iwacs";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Iwacs%20Lite a dpv:TechnicalMeasure;
+  skos:prefLabel "Iwacs Lite";
+  rdfs:label "Iwacs Lite";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Jitterbit a dpv:TechnicalMeasure;
+  skos:prefLabel "Jitterbit";
+  rdfs:label "Jitterbit";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:KABA%20B-Comm a dpv:TechnicalMeasure;
+  skos:prefLabel "KABA B-Comm";
+  rdfs:label "KABA B-Comm";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Keeper%20password%20Manager a dpv:TechnicalMeasure;
+  skos:prefLabel "Keeper password Manager";
+  rdfs:label "Keeper password Manager";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Kyndryl%20Tape%20Back%20up a dpv:TechnicalMeasure;
+  skos:prefLabel "Kyndryl Tape Back up";
+  rdfs:label "Kyndryl Tape Back up";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Managed%20Detection%20and%20Response a dpv:TechnicalMeasure;
+  skos:prefLabel "Managed Detection and Response";
+  rdfs:label "Managed Detection and Response";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Megapay a dpv:TechnicalMeasure;
+  skos:prefLabel "Megapay";
+  rdfs:label "Megapay";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Microsoft%20Intune a dpv:TechnicalMeasure;
+  skos:prefLabel "Microsoft Intune";
+  rdfs:label "Microsoft Intune";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:CybersecurityAssessment "Not applicable";
+  dpv:ActivityMonitoring "Not applicable" .
+
+upsilon:Microsoft%20Office a dpv:TechnicalMeasure;
+  skos:prefLabel "Microsoft Office";
+  rdfs:label "Microsoft Office";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Microsoft%20Purview%20Information%20Protection%20Sensitivity%20Labelling a
+    dpv:TechnicalMeasure;
+  skos:prefLabel "Microsoft Purview Information Protection Sensitivity Labelling";
+  rdfs:label "Microsoft Purview Information Protection Sensitivity Labelling";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "No";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Navex a dpv:TechnicalMeasure;
+  skos:prefLabel "Navex";
+  rdfs:label "Navex";
+  dpv:hasEncryption "Not sure";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Occupop a dpv:TechnicalMeasure;
+  skos:prefLabel "Occupop";
+  rdfs:label "Occupop";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Opal%20Wave a dpv:TechnicalMeasure;
+  skos:prefLabel "Opal Wave";
+  rdfs:label "Opal Wave";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Oracle%20database a dpv:TechnicalMeasure;
+  skos:prefLabel "Oracle database";
+  rdfs:label "Oracle database";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Patch%20my%20PC a dpv:TechnicalMeasure;
+  skos:prefLabel "Patch my PC";
+  rdfs:label "Patch my PC";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:PIMS%20Order%20Channel a dpv:TechnicalMeasure;
+  skos:prefLabel "PIMS Order Channel";
+  rdfs:label "PIMS Order Channel";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:PrestaShop%20Website a dpv:TechnicalMeasure;
+  skos:prefLabel "PrestaShop Website";
+  rdfs:label "PrestaShop Website";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Privacy%20Engine a dpv:TechnicalMeasure;
+  skos:prefLabel "Privacy Engine";
+  rdfs:label "Privacy Engine";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+<https://w3id.org/dpcat/examples/UPSILON/vocab#Proclud/HPE%20cloud%20system> a dpv:TechnicalMeasure;
+  skos:prefLabel "Proclud/HPE cloud system";
+  rdfs:label "Proclud/HPE cloud system";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Proofpoint a dpv:TechnicalMeasure;
+  skos:prefLabel "Proofpoint";
+  rdfs:label "Proofpoint";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Q%20Pulse a dpv:TechnicalMeasure;
+  skos:prefLabel "Q Pulse";
+  rdfs:label "Q Pulse";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Qualys a dpv:TechnicalMeasure;
+  skos:prefLabel "Qualys";
+  rdfs:label "Qualys";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Realink a dpv:TechnicalMeasure;
+  skos:prefLabel "Realink";
+  rdfs:label "Realink";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:Remediant%20SecureOne a dpv:TechnicalMeasure;
+  skos:prefLabel "Remediant SecureOne";
+  rdfs:label "Remediant SecureOne";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Robin%20Desk%20and%20meeting%20room%20Booking%20System a dpv:TechnicalMeasure;
+  skos:prefLabel "Robin Desk and meeting room Booking System";
+  rdfs:label "Robin Desk and meeting room Booking System";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Run%20Zero a dpv:TechnicalMeasure;
+  skos:prefLabel "Run Zero";
+  rdfs:label "Run Zero";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Not applicable";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Not applicable" .
+
+upsilon:SAP%20BI a dpv:TechnicalMeasure;
+  skos:prefLabel "SAP BI";
+  rdfs:label "SAP BI";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:SAP%20ERP a dpv:TechnicalMeasure;
+  skos:prefLabel "SAP ERP";
+  rdfs:label "SAP ERP";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:SAP%20ICM%20Archiving a dpv:TechnicalMeasure;
+  skos:prefLabel "SAP ICM Archiving";
+  rdfs:label "SAP ICM Archiving";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Semarchy a dpv:TechnicalMeasure;
+  skos:prefLabel "Semarchy";
+  rdfs:label "Semarchy";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Service%20now a dpv:TechnicalMeasure;
+  skos:prefLabel "Service now";
+  rdfs:label "Service now";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Sharepoint a dpv:TechnicalMeasure;
+  skos:prefLabel "Sharepoint";
+  rdfs:label "Sharepoint";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Shopify%20%28%20not%20active%29 a dpv:TechnicalMeasure;
+  skos:prefLabel "Shopify ( not active)";
+  rdfs:label "Shopify ( not active)";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:SQL%20database a dpv:TechnicalMeasure;
+  skos:prefLabel "SQL database";
+  rdfs:label "SQL database";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:TMC%20Mileage%20system a dpv:TechnicalMeasure;
+  skos:prefLabel "TMC Mileage system";
+  rdfs:label "TMC Mileage system";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Transport%20force a dpv:TechnicalMeasure;
+  skos:prefLabel "Transport force";
+  rdfs:label "Transport force";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Trex a dpv:TechnicalMeasure;
+  skos:prefLabel "Trex";
+  rdfs:label "Trex";
+  dpv:hasEncryption "No";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .
+
+upsilon:UIPath a dpv:TechnicalMeasure;
+  skos:prefLabel "UIPath";
+  rdfs:label "UIPath";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Umbraco%20CMS a dpv:TechnicalMeasure;
+  skos:prefLabel "Umbraco CMS";
+  rdfs:label "Umbraco CMS";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Uniphar%20PLC%20website a dpv:TechnicalMeasure;
+  skos:prefLabel "Uniphar PLC website";
+  rdfs:label "Uniphar PLC website";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Uniphar%20Wholesale%20Website%20b2b a dpv:TechnicalMeasure;
+  skos:prefLabel "Uniphar Wholesale Website b2b";
+  rdfs:label "Uniphar Wholesale Website b2b";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Vistex%20%28%20SAP%20add-on%29 a dpv:TechnicalMeasure;
+  skos:prefLabel "Vistex ( SAP add-on)";
+  rdfs:label "Vistex ( SAP add-on)";
+  dpv:hasEncryption "Not applicable";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:CybersecurityAssessment "Not applicable";
+  dpv:ActivityMonitoring "Not applicable" .
+
+upsilon:Vocollect a dpv:TechnicalMeasure;
+  skos:prefLabel "Vocollect";
+  rdfs:label "Vocollect";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Wetransfer a dpv:TechnicalMeasure;
+  skos:prefLabel "Wetransfer";
+  rdfs:label "Wetransfer";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Winshuttle a dpv:TechnicalMeasure;
+  skos:prefLabel "Winshuttle";
+  rdfs:label "Winshuttle";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Work%20Compass a dpv:TechnicalMeasure;
+  skos:prefLabel "Work Compass";
+  rdfs:label "Work Compass";
+  dpv:hasEncryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:CybersecurityAssessment "Not sure";
+  dpv:ActivityMonitoring "Not sure" .
+
+upsilon:Workday%20SAAS a dpv:TechnicalMeasure;
+  skos:prefLabel "Workday SAAS";
+  rdfs:label "Workday SAAS";
+  dpv:hasEncryption "Yes";
+  dpv:hasEncryptionAtRest "Yes";
+  dpv:hasEncryptionInTransit "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:CybersecurityAssessment "Yes";
+  dpv:ActivityMonitoring "Yes" .

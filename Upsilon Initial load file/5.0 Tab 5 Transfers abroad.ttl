@@ -1,0 +1,52 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:description "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasSafeguardForDataTransfer upsilon:Standard%20Contractual%20Clauses;
+  dpv:hasCountry upsilon:India .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:description "Organisation of business travel";
+  dpv:hasSafeguardForDataTransfer upsilon:Adequacy, upsilon:Standard%20Contractual%20Clauses;
+  dpv:hasCountry upsilon:United%20Kingdom, upsilon:United%20States .
+
+upsilon:25014.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website";
+  dpv:hasSafeguardForDataTransfer upsilon:Adequacy;
+  dpv:hasCountry upsilon:United%20Kingdom .
+
+upsilon:26918.0 a dpcat:ROPARecord;
+  terms:description "Contract Review Project";
+  dpv:hasSafeguardForDataTransfer upsilon:Adequacy;
+  dpv:hasCountry upsilon:United%20Kingdom .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:description "Learning and Development";
+  dpv:hasSafeguardForDataTransfer upsilon:Adequacy;
+  dpv:hasCountry upsilon:United%20Kingdom .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:description "Operate Newsletter for Corporate Investors";
+  dpv:hasSafeguardForDataTransfer upsilon:Adequacy;
+  dpv:hasCountry upsilon:United%20Kingdom .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:description "Desk Booking and meeting room booking Service";
+  dpv:hasSafeguardForDataTransfer upsilon:Standard%20Contractual%20Clauses;
+  dpv:hasCountry upsilon:United%20States .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:description "General Project Management";
+  dpv:hasSafeguardForDataTransfer upsilon:Standard%20Contractual%20Clauses;
+  dpv:hasCountry upsilon:United%20States .

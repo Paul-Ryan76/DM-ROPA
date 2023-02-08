@@ -1,0 +1,91 @@
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix dpv-gdpr: <https://w3id.org/dpv/dpv-skos/dpv-gdpr#> .
+@prefix dpv-pd: <https://w3id.org/dpv/dpv-skos/dpv-pd#> .
+@prefix dpv-tech: <https://w3id.org/dpv/dpv-skos/dpv-tech#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <https://www.w3.org/TR/owl-time/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix : <https://w3id.org/dpcat/examples/UPSILON#> .
+
+
+### UPSILON vocab ###
+
+
+# Legal Basis
+upsilon:StaffRegulation a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "The Staff Regulations (and particularly Art. 27-34) and the Conditions of Employment of Other Servants of the EU -the Decision of the UPSILON of 4 November 2020 adopting general implementing provisions relating to the engagement and the use of contract staff."@en .
+
+upsilon:LegitimateInterest a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "The processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child."@en .
+
+
+upsilon:Consent a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Consent of the Data Subject for specified processing."@en .
+
+ upsilon:ContractPerformance a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Fulfilment or performance of a contract involving specified processing."@en .
+
+upsilon:DataTransferLegalBasis a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel " Specific or special categories and instances of legal basis intended for justifying data transfers."@en .
+
+upsilon:VitalInterestOfDataSubject a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Processing is necessary or required to protect vital interests of a data subject."@en .
+
+upsilon:LegalObligation a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Processing is necessary to comply with a legal obligation."@en .
+
+upsilon:Employmentlaw a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Processing is necessary to comply with Employment Law."@en .
+
+
+upsilon:LegalObligation a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Processing is necessary to comply with a legal obligation."@en .
+
+
+upsilon:AssessmentofWorkingCapacity  a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Processing is necessary to assess capacity for work."@en .
+
+
+upsilon:LegalClaims  a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Processing is necessary to defend Legal Claims."@en .
+
+upsilon:PreventiveorOccupationalmedicine a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Processing is necessary for Preventive or Occupational medicine."@en .
+
+
+upsilon:MedicalDiagnosis a dpv:LegalBasis ;
+    skos:broaderTransitive dpv:LegalObligation ;
+    skos:prefLabel "Processing is necessary for Medical Diagnosis."@en .
+
+
+
+
+
+
+
+
+
+
+
+

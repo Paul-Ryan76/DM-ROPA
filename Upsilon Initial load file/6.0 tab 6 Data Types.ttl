@@ -1,0 +1,545 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24933.0 a dpcat:ROPARecord;
+  terms:description "Uniphar PLC (Controller) ROPA";
+  dpv:hasStorageDuration upsilon:Not%20Specified, upsilon:contract%20plus%202%20years;
+  dpv:hasPersonalData <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29>,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information, upsilon:Government%20identifiers%2C%20e.g.%2C%20social%20security%20numbers .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Offer)";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29>,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:25001.0 a dpcat:ROPARecord;
+  terms:description "Payables processing";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25007.0 a dpcat:ROPARecord;
+  terms:description "Quality Compliance";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25008.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website (refer to corporate activities)";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  terms:description "Physical Security of Sites";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25014.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  terms:description "Staff Training";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25053.0 a dpcat:ROPARecord;
+  terms:description "Staff Training -record keeping";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:description "Provision of staff training";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:description "Call Recording";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  terms:description "Operation of CRM System";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Financial%20Information, upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  terms:description "Payroll Processing";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:25074.0 a dpcat:ROPARecord;
+  terms:description "New Supplier Onboarding";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25075.0 a dpcat:ROPARecord;
+  terms:description "Quality Investigations";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25078.0 a dpcat:ROPARecord;
+  terms:description "Complaint Handling";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25080.0 a dpcat:ROPARecord;
+  terms:description "Master Data Management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  terms:description "Accident reporting and investigation";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:25096.0 a dpcat:ROPARecord;
+  terms:description "Software Deployment and support";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  terms:description "Helpdesk Management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25107.0 a dpcat:ROPARecord;
+  terms:description "Disciplinary Process";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25108.0 a dpcat:ROPARecord;
+  terms:description "Redundancy Process";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  terms:description "Fleet Management for drivers of company provided vehicles";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  terms:description "Illness and Absence Management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Government%20identifiers%2C%20e.g.%2C%20social%20security%20numbers, upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25111.0 a dpcat:ROPARecord;
+  terms:description "Bullying investigations";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:description "Learning and Development";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  terms:description "Compensation and Benefits Admin";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Financial%20Information, upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  terms:description "Performance Management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Trade%20union%20membership, upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  terms:description "Staff Recruitment ( Internal Roles)";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25123.0 a dpcat:ROPARecord;
+  terms:description "Interview of candidates";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29>,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25125.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening (references)";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25126.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening ( Health Check)";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25127.0 a dpcat:ROPARecord;
+  terms:description "Data Protection Compliance";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:description "Desk Booking and meeting room booking Service";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  terms:description "Distribution / Patient Service Management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  terms:description "Mobile Device provision and support";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25224.0 a dpcat:ROPARecord;
+  terms:description "Employee Leave management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25252.0 a dpcat:ROPARecord;
+  terms:description "99198_Fres Kabi Oncology_Fres Kabi Oncology Distribution";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  terms:description "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:hasStorageDuration upsilon:Contract%20Duration;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  terms:description "company 2";
+  dpv:hasStorageDuration upsilon:Contract%20Duration;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25272.0 a dpcat:ROPARecord;
+  terms:description "Legal Counsel support";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:description "Organisation of business travel";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Government%20identifiers%2C%20e.g.%2C%20social%20security%20numbers .
+
+upsilon:25506.0 a dpcat:ROPARecord;
+  terms:description "Whistleblowing service for employees";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25612.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website B2C";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29>,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  terms:description "Manufacturing services (Qualified Person)";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  terms:description "BCT Support";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Induction)";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:description "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25983.0 a dpcat:ROPARecord;
+  terms:description "Vulnerability Testing";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26203.0 a dpcat:ROPARecord;
+  terms:description "Operate B2B Website - Uniphar Wholesale";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26204.0 a dpcat:ROPARecord;
+  terms:description "Operate B2C Website AYA ( not yet active)";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26219.0 a dpcat:ROPARecord;
+  terms:description "Operation of Corporate Website";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:description "Support Oracle Databases";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26307.0 a dpcat:ROPARecord;
+  terms:description "M&A due diligence";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26378.0 a dpcat:ROPARecord;
+  terms:description "Process Automation";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26384.0 a dpcat:ROPARecord;
+  terms:description "Pick and pack customer orders";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  terms:description "Support Microsoft 365 environment";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  terms:description "company 2 (Copy)";
+  dpv:hasStorageDuration upsilon:Contract%20Duration;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26411.0 a dpcat:ROPARecord;
+  terms:description "99199_Fresenius Kabi EN_Fresenius Kabi EN_Cestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26412.0 a dpcat:ROPARecord;
+  terms:description "99158_Fresenius Kabi Limited_Fresenius Kabi Limited_Crestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26413.0 a dpcat:ROPARecord;
+  terms:description "99201_Fresenius Kabi PN_Fresenius Kabi PN_Cestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26414.0 a dpcat:ROPARecord;
+  terms:description "99222_FRESENIUS KABI SAMPLES & PUMPS_FRESENIUS KABI SAMPLES & PUMPS_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26415.0 a dpcat:ROPARecord;
+  terms:description "99284_Fresenius Kabi St Solutions_Fresenius Kabi St Solutions______Runcorn_CH_WA7 1NT_GB";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26416.0 a dpcat:ROPARecord;
+  terms:description "99326_Ascensia Diabetes Care Ireland Ltd_Ascensia Diabetes Care Ireland Ltd__4045 Kingswood Road_Citywest Business Park___Dublin_DB_24_IE";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26417.0 a dpcat:ROPARecord;
+  terms:description "99309_CARAGEN LIMITED_CARAGEN LIMITED__1st Floor, Suite 32 The Mall_Beacon Court___Sandyford_DB_D18 AYF3_IE";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26418.0 a dpcat:ROPARecord;
+  terms:description "99223_FRESENIUS KABI ANCILLARIES_FRESENIUS KABI ANCILLARIES_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26419.0 a dpcat:ROPARecord;
+  terms:description "99227_FRESENIUS KABI PEDIATRIC_FRESENIUS KABI PEDIATRIC_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26436.0 a dpcat:ROPARecord;
+  terms:description "Maintenance of HR records";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Trade%20union%20membership, upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29>,
+    upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Financial%20Information, upsilon:Racial%20or%20ethnic%20origin, upsilon:Government%20identifiers%2C%20e.g.%2C%20social%20security%20numbers,
+    upsilon:Data%20pertaining%20to%20children%20aged%2016%20or%20under .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  terms:description "Acquisition due diligence";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Financial%20Information, upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  terms:description "E-mail security";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26917.0 a dpcat:ROPARecord;
+  terms:description "S4Hanna Project";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  terms:description "online back-ups of Warehouse and SAP systems";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  terms:description "Cloud Back up of Microsoft windows and oracle environment";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Non-sensitive%20personal%20information, upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:26924.0 a dpcat:ROPARecord;
+  terms:description "Support SAP systems";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  terms:description "System log monitoring";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:27221.0 a dpcat:ROPARecord;
+  terms:description "Treasury Management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:description "General Project Management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  terms:description "Central Recruitment for Internal roles";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29311.0 a dpcat:ROPARecord;
+  terms:description "Financial Reporting";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Financial%20Information .
+
+upsilon:29322.0 a dpcat:ROPARecord;
+  terms:description "Financial Reporting";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29330.0 a dpcat:ROPARecord;
+  terms:description "Tax Reporting";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Financial%20Information .
+
+upsilon:29673.0 a dpcat:ROPARecord;
+  terms:description "Data sensitivity cataloging";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29820.0 a dpcat:ROPARecord;
+  terms:description "Implementation of SSO";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29872.0 a dpcat:ROPARecord;
+  terms:description "Online Back up of Microsoft windows and oracle environment";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Non-sensitive%20personal%20information, upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  terms:description "Cloud back-ups of Warehouse and SAP systems";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  terms:description "Gather Proof of Delivery";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  terms:description "Staff recruitment Equal Opportunities Monitoring";
+  dpv:hasStorageDuration upsilon:5%20years%20unless%20requested%20to%20remove%2C%20which%20the%20candidates%20can%20do%20through%20their%20External%20Workday%20accou;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Religious%20or%20philosophical%20beliefs, upsilon:Racial%20or%20ethnic%20origin,
+    upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:30920.0 a dpcat:ROPARecord;
+  terms:description "Privilege Access Management";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  terms:description "Pension administration";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Financial%20Information, upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:31173.0 a dpcat:ROPARecord;
+  terms:description "Private health Payment processing";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:32400.0 a dpcat:ROPARecord;
+  terms:description "Delivery of Customer Orders";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29> .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  terms:description "Health assessment - fitness to work";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:32413.0 a dpcat:ROPARecord;
+  terms:description "Conduct Financial Audit";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Financial%20Information, upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:32414.0 a dpcat:ROPARecord;
+  terms:description "Operate Cycle to Work Scheme";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:32697.0 a dpcat:ROPARecord;
+  terms:description "Monitor employee time and attendance";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:32767.0 a dpcat:ROPARecord;
+  terms:description "Secure File Share service";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:32769.0 a dpcat:ROPARecord;
+  terms:description "Managed Detection and Response";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:description "Operate Newsletter for Corporate Investors";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  terms:description "Password Management services";
+  dpv:hasStorageDuration upsilon:Not%20Specified;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .

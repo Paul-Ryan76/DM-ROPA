@@ -1,0 +1,769 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24997.0 a dpcat:ROPARecord;
+  terms:description "Human Resource Processing Activities - Uniphar PLC";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Offer)";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS .
+
+upsilon:25001.0 a dpcat:ROPARecord;
+  terms:description "Payables processing";
+  dpv:Encryption "Yes", "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office, upsilon:SAP%20ERP .
+
+upsilon:25003.0 a dpcat:ROPARecord;
+  terms:description "Physical Security for Uniphar PLC";
+  dpv:Encryption "No";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:CCTV%20system .
+
+upsilon:25007.0 a dpcat:ROPARecord;
+  terms:description "Quality Compliance";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Q%20Pulse .
+
+upsilon:25008.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website (refer to corporate activities)";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Umbraco%20CMS .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  terms:description "Physical Security of Sites";
+  dpv:Encryption "No";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:CCTV%20system .
+
+upsilon:25011.0 a dpcat:ROPARecord;
+  terms:description "Distribution Client Management";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  terms:description "Staff Training";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office .
+
+upsilon:25053.0 a dpcat:ROPARecord;
+  terms:description "Staff Training -record keeping";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Q%20Pulse .
+
+upsilon:25055.0 a dpcat:ROPARecord;
+  terms:description "Pharma co-vigilance record keeping";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Q%20Pulse, upsilon:Adobe%20Sign .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:description "Provision of staff training";
+  dpv:Encryption "Yes", "Not applicable";
+  dpv:DataBackupProtocols "Yes", "Not applicable";
+  dpv:PrivacyPreservingProtocol "Yes", "Not applicable";
+  dpv:VulnerabilityTestingMethods "Yes", "Not applicable";
+  dpv:isImplementedUsingTechnology upsilon:Q%20Pulse, upsilon:Workday%20SAAS, upsilon:Academy%20HQ .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:description "Call Recording";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Carin%20call%20recording%20system .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  terms:description "Operation of CRM System";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:BCT .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:ConCur%20Expense%20system .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  terms:description "Payroll Processing";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Megapay .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:ConCur%20Expense%20system .
+
+upsilon:25074.0 a dpcat:ROPARecord;
+  terms:description "New Supplier Onboarding";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office .
+
+upsilon:25075.0 a dpcat:ROPARecord;
+  terms:description "Quality Investigations";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Q%20Pulse .
+
+upsilon:25078.0 a dpcat:ROPARecord;
+  terms:description "Complaint Handling";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Q%20Pulse .
+
+upsilon:25080.0 a dpcat:ROPARecord;
+  terms:description "Master Data Management";
+  dpv:Encryption "Not sure", "Not applicable";
+  dpv:DataBackupProtocols "Not sure", "Yes";
+  dpv:PrivacyPreservingProtocol "Not sure", "Yes";
+  dpv:VulnerabilityTestingMethods "Not sure", "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Winshuttle, upsilon:Jitterbit, upsilon:Semarchy .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  terms:description "Accident reporting and investigation";
+  dpv:Encryption "Not sure", "No";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Sharepoint, upsilon:CCTV%20system .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  terms:description "Helpdesk Management";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Flow%20Forma%20Ticket%20System .
+
+upsilon:25107.0 a dpcat:ROPARecord;
+  terms:description "Disciplinary Process";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office, upsilon:Workday%20SAAS .
+
+upsilon:25108.0 a dpcat:ROPARecord;
+  terms:description "Redundancy Process";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS, upsilon:Microsoft%20Office .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  terms:description "Fleet Management for drivers of company provided vehicles";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office, upsilon:Workday%20SAAS .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  terms:description "Illness and Absence Management";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS .
+
+upsilon:25111.0 a dpcat:ROPARecord;
+  terms:description "Bullying investigations";
+  dpv:Encryption "Yes", "No";
+  dpv:DataBackupProtocols "Yes", "Not sure";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS, upsilon:Microsoft%20Office,
+    upsilon:CCTV%20system .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:description "Learning and Development";
+  dpv:Encryption "Yes", "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Privacy%20Engine, upsilon:Proofpoint, upsilon:Q%20Pulse,
+    upsilon:Workday%20SAAS .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  terms:description "Compensation and Benefits Admin";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office, upsilon:Workday%20SAAS .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  terms:description "Performance Management";
+  dpv:Encryption "Yes", "Not sure";
+  dpv:DataBackupProtocols "Yes", "Not sure";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS, upsilon:Work%20Compass .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  terms:description "Staff Recruitment ( Internal Roles)";
+  dpv:Encryption "Not sure", "Yes";
+  dpv:DataBackupProtocols "Not sure", "Yes";
+  dpv:PrivacyPreservingProtocol "Not sure", "Yes";
+  dpv:VulnerabilityTestingMethods "Not sure", "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Occupop, upsilon:Workday%20SAAS .
+
+upsilon:25123.0 a dpcat:ROPARecord;
+  terms:description "Interview of candidates";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS, upsilon:Microsoft%20Office .
+
+upsilon:25125.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening (references)";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office, upsilon:Workday%20SAAS .
+
+upsilon:25126.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening ( Health Check)";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS .
+
+upsilon:25127.0 a dpcat:ROPARecord;
+  terms:description "Data Protection Compliance";
+  dpv:Encryption "Yes", "Not sure";
+  dpv:DataBackupProtocols "Yes", "Not sure";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Privacy%20Engine, upsilon:Docusign .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:description "Desk Booking and meeting room booking Service";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Robin%20Desk%20and%20meeting%20room%20Booking%20System .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  terms:description "Distribution / Patient Service Management";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20BI, upsilon:SAP%20ERP .
+
+upsilon:25209.0 a dpcat:ROPARecord;
+  terms:description "Network architecture management";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:PrivacyPreservingProtocol "Not applicable";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Run%20Zero .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  terms:description "Mobile Device provision and support";
+  dpv:Encryption "Yes", "Not applicable";
+  dpv:DataBackupProtocols "Yes", "Not applicable";
+  dpv:PrivacyPreservingProtocol "Yes", "Not applicable";
+  dpv:VulnerabilityTestingMethods "Yes", "Not applicable";
+  dpv:isImplementedUsingTechnology upsilon:Eir%20Mobile%20Phone%20service, upsilon:Microsoft%20Intune .
+
+upsilon:25224.0 a dpcat:ROPARecord;
+  terms:description "Employee Leave management";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:ESS .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  terms:description "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:Encryption "Not sure", "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20ERP, upsilon:Iwacs .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  terms:description "company 2";
+  dpv:Encryption "Not applicable", "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Iwacs, upsilon:SAP%20ERP .
+
+upsilon:25272.0 a dpcat:ROPARecord;
+  terms:description "Legal Counsel support";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:description "Organisation of business travel";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Clarity2go .
+
+upsilon:25506.0 a dpcat:ROPARecord;
+  terms:description "Whistleblowing service for employees";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Navex .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  terms:description "Manufacturing services (Qualified Person)";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Q%20Pulse .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  terms:description "BCT Support";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:BCT .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Induction)";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS, upsilon:Megapay .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:description "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:Encryption "Not applicable", "Not sure";
+  dpv:DataBackupProtocols "Yes", "Not sure";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Iwacs, upsilon:Iwacs%20Lite, upsilon:SQL%20database .
+
+upsilon:25982.0 a dpcat:ROPARecord;
+  terms:description "Identity Access Control";
+  dpv:Encryption "Not applicable", "Not sure";
+  dpv:DataBackupProtocols "Not applicable", "Not sure";
+  dpv:PrivacyPreservingProtocol "Not applicable", "Not sure";
+  dpv:VulnerabilityTestingMethods "Not applicable", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Intune, upsilon:Remediant%20SecureOne .
+
+upsilon:25983.0 a dpcat:ROPARecord;
+  terms:description "Vulnerability Testing";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Qualys .
+
+upsilon:26219.0 a dpcat:ROPARecord;
+  terms:description "Operation of Corporate Website";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Umbraco%20CMS, upsilon:Uniphar%20PLC%20website .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:description "Support Oracle Databases";
+  dpv:Encryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Oracle%20database .
+
+upsilon:26378.0 a dpcat:ROPARecord;
+  terms:description "Process Automation";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:UIPath .
+
+upsilon:26382.0 a dpcat:ROPARecord;
+  terms:description "Customer benefits management";
+  dpv:Encryption "Not applicable";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:PrivacyPreservingProtocol "Not applicable";
+  dpv:VulnerabilityTestingMethods "Not applicable";
+  dpv:isImplementedUsingTechnology upsilon:Vistex%20%28%20SAP%20add-on%29 .
+
+upsilon:26384.0 a dpcat:ROPARecord;
+  terms:description "Pick and pack customer orders";
+  dpv:Encryption "Not applicable", "Not sure";
+  dpv:DataBackupProtocols "Yes", "Not sure";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Iwacs, upsilon:Inther%20System .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  terms:description "Support Microsoft 365 environment";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  terms:description "company 2 (Copy)";
+  dpv:Encryption "Not sure", "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20ERP, upsilon:Iwacs .
+
+upsilon:26436.0 a dpcat:ROPARecord;
+  terms:description "Maintenance of HR records";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office, upsilon:Workday%20SAAS .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  terms:description "Acquisition due diligence";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Office .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  terms:description "E-mail security";
+  dpv:Encryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Proofpoint .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  terms:description "online back-ups of Warehouse and SAP systems";
+  dpv:Encryption "Not applicable", "Not sure", "Yes";
+  dpv:DataBackupProtocols "Yes", "Not sure", "Not applicable";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure", "Not applicable";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure", "Not applicable";
+  dpv:isImplementedUsingTechnology upsilon:Iwacs%20Lite, upsilon:Iwacs, upsilon:Inther%20System,
+    upsilon:Vistex%20%28%20SAP%20add-on%29, upsilon:SAP%20BI, upsilon:SAP%20ERP, upsilon:Kyndryl%20Tape%20Back%20up .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  terms:description "Cloud Back up of Microsoft windows and oracle environment";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology <https://w3id.org/dpcat/examples/UPSILON/vocab#Proclud/HPE%20cloud%20system> .
+
+upsilon:26924.0 a dpcat:ROPARecord;
+  terms:description "Support SAP systems";
+  dpv:Encryption "Not sure", "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20ERP, upsilon:SAP%20BI, upsilon:ConCur%20Expense%20system .
+
+upsilon:27200.0 a dpcat:ROPARecord;
+  terms:description "HR services (outsourced to Uniphar wholesale)";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS .
+
+upsilon:27221.0 a dpcat:ROPARecord;
+  terms:description "Treasury Management";
+  dpv:Encryption "Not sure", "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20ERP, upsilon:Microsoft%20Office .
+
+upsilon:27715.0 a dpcat:ROPARecord;
+  terms:description "SAP Orders";
+  dpv:Encryption "Not sure", "No";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20ERP, upsilon:Trex .
+
+upsilon:27716.0 a dpcat:ROPARecord;
+  terms:description "BCT Orders";
+  dpv:Encryption "No", "Not sure";
+  dpv:DataBackupProtocols "Yes", "Not sure";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Trex, upsilon:SAP%20ERP, upsilon:BCT .
+
+upsilon:27717.0 a dpcat:ROPARecord;
+  terms:description "Web Orders";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Uniphar%20Wholesale%20Website%20b2b .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:description "General Project Management";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Wetransfer .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  terms:description "Central Recruitment for Internal roles";
+  dpv:Encryption "Not sure", "Yes";
+  dpv:DataBackupProtocols "Not sure", "Yes";
+  dpv:PrivacyPreservingProtocol "Not sure", "Yes";
+  dpv:VulnerabilityTestingMethods "Not sure", "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Occupop, upsilon:Workday%20SAAS .
+
+upsilon:29311.0 a dpcat:ROPARecord;
+  terms:description "Financial Reporting";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20ERP, upsilon:SAP%20BI .
+
+upsilon:29322.0 a dpcat:ROPARecord;
+  terms:description "Financial Reporting";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20BI, upsilon:SAP%20ERP .
+
+upsilon:29330.0 a dpcat:ROPARecord;
+  terms:description "Tax Reporting";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20ERP, upsilon:SAP%20BI .
+
+upsilon:29673.0 a dpcat:ROPARecord;
+  terms:description "Data sensitivity cataloging";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Microsoft%20Purview%20Information%20Protection%20Sensitivity%20Labelling .
+
+upsilon:29820.0 a dpcat:ROPARecord;
+  terms:description "Implementation of SSO";
+  dpv:Encryption "Yes", "Not sure";
+  dpv:DataBackupProtocols "Yes", "Not sure";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Qualys, upsilon:Privacy%20Engine, upsilon:Robin%20Desk%20and%20meeting%20room%20Booking%20System,
+    upsilon:Microsoft%20Office, upsilon:Workday%20SAAS .
+
+upsilon:29837.0 a dpcat:ROPARecord;
+  terms:description "PIMS Order Processing - SAP Interface Channel";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:PIMS%20Order%20Channel .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  terms:description "Cloud back-ups of Warehouse and SAP systems";
+  dpv:Encryption "Not applicable", "Not sure";
+  dpv:DataBackupProtocols "Yes", "Not sure", "Not applicable";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure", "Not applicable";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure", "Not applicable";
+  dpv:isImplementedUsingTechnology upsilon:Iwacs%20Lite, upsilon:Inther%20System, upsilon:Iwacs,
+    upsilon:Vistex%20%28%20SAP%20add-on%29, upsilon:SAP%20BI, upsilon:SAP%20ERP .
+
+upsilon:30634.0 a dpcat:ROPARecord;
+  terms:description "SAP Archiving Process";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Yes", "Not sure";
+  dpv:PrivacyPreservingProtocol "Yes", "Not sure";
+  dpv:VulnerabilityTestingMethods "Yes", "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:SAP%20ERP, upsilon:SAP%20ICM%20Archiving .
+
+upsilon:30635.0 a dpcat:ROPARecord;
+  terms:description "DOE Order placing";
+  dpv:Encryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Realink .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  terms:description "Gather Proof of Delivery";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Cache%20EPOD .
+
+upsilon:30637.0 a dpcat:ROPARecord;
+  terms:description "Business Reporting to clients";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:BI%20Broadcasting .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  terms:description "Staff recruitment Equal Opportunities Monitoring";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS .
+
+upsilon:30725.0 a dpcat:ROPARecord;
+  terms:description "Workday Project";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Workday%20SAAS .
+
+upsilon:30920.0 a dpcat:ROPARecord;
+  terms:description "Privilege Access Management";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Remediant%20SecureOne .
+
+upsilon:30923.0 a dpcat:ROPARecord;
+  terms:description "End Point Protection and detection - Anti-Malware";
+  dpv:Encryption "Not applicable";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:PrivacyPreservingProtocol "Not applicable";
+  dpv:VulnerabilityTestingMethods "Not applicable";
+  dpv:isImplementedUsingTechnology upsilon:Crowdstrike%20EDR .
+
+upsilon:30926.0 a dpcat:ROPARecord;
+  terms:description "Asset Management Tracking";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Not applicable";
+  dpv:PrivacyPreservingProtocol "Not applicable";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Run%20Zero .
+
+upsilon:32400.0 a dpcat:ROPARecord;
+  terms:description "Delivery of Customer Orders";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Transport%20force .
+
+upsilon:32697.0 a dpcat:ROPARecord;
+  terms:description "Monitor employee time and attendance";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:KABA%20B-Comm .
+
+upsilon:32767.0 a dpcat:ROPARecord;
+  terms:description "Secure File Share service";
+  dpv:Encryption "Not applicable";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Proofpoint .
+
+upsilon:32768.0 a dpcat:ROPARecord;
+  terms:description "Patch monitoring and delivery";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Patch%20my%20PC .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:description "Operate Newsletter for Corporate Investors";
+  dpv:Encryption "Not sure";
+  dpv:DataBackupProtocols "Not sure";
+  dpv:PrivacyPreservingProtocol "Not sure";
+  dpv:VulnerabilityTestingMethods "Not sure";
+  dpv:isImplementedUsingTechnology upsilon:Uniphar%20PLC%20website .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  terms:description "Password Management services";
+  dpv:Encryption "Yes";
+  dpv:DataBackupProtocols "Yes";
+  dpv:PrivacyPreservingProtocol "Yes";
+  dpv:VulnerabilityTestingMethods "Yes";
+  dpv:isImplementedUsingTechnology upsilon:Keeper%20password%20Manager .

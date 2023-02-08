@@ -1,0 +1,49 @@
+BASE <http://example.com/base/>
+PREFIX mapper: <http://www.ontotext.com/mapper/>
+PREFIX upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#>
+PREFIX dpcat: <https://w3id.org/dpcat#>
+PREFIX dpv: <https://w3id.org/dpv/dpv-skos#>
+PREFIX terms: <http://purl.org/dc/terms/>
+
+CONSTRUCT {
+    ?s1 a dpcat:ROPARecord ;
+        dpv:hasIdentifier ?o_hasIdentifier ;
+        terms:hasDescription ?o_hasDescription ;
+        dpv:hasPurpose ?o_hasPurpose ;
+        dpv:hasProfiling ?o_hasProfiling ;
+        dpv:hasDataSubject ?o_hasDataSubject ;
+        dpv:hasDataController ?o_hasDataController, ?o_hasDataController_2 ;
+        dpv:hasProcessor ?o_hasProcessor ;
+        dpv:hasRepresentative ?o_hasRepresentative ;
+        dpv:hasRecipient ?o_hasRecipient ;
+        terms:created ?o_created ;
+        dpv:hasJurisdiction ?o_hasJurisdiction, ?o_hasJurisdiction_2 ;
+        upsilon:Notes ?o_Notes .
+} WHERE {
+    SERVICE <rdf-mapper:ontorefine:2109845182499> {
+        # Columns as variables:
+        #   ?c_Activity_ID, ?c_Associated_Activity_ID, ?c_Reference_Number, ?c_Activity_Name,
+        #   ?c_Activity_Description, ?c_Purpose_Of_Processing, ?c_Is_Profiling, ?c_Data_Subject_Count_From,
+        #   ?c_Data_Subject_Count_To, ?c_Is_Data_Controller, ?c_Is_Joint_Data_Controller,
+        #   ?c_Is_Data_Processor, ?c_Is_Nominated_Represented, ?c_Is_Data_Recipient,
+        #   ?c_Created_Date_Time, ?c_Jurisdiction_where_the_processing_primarily_takes_place,
+        #   ?c_Other_jurisdictions_where_processing_of_data_takes_place, ?c_notes
+        # Metadata as variables:
+        #   ?row_index, ?record_id
+        BIND(IRI(mapper:encode_iri(upsilon:, ?c_Activity_ID)) as ?s1)
+        BIND(STR(?c_Reference_Number) as ?o_hasIdentifier)
+        BIND(STR(?c_Activity_Name) as ?o_hasDescription)
+        BIND(STR(?c_Purpose_Of_Processing) as ?o_hasPurpose)
+        BIND(STR(?c_Is_Profiling) as ?o_hasProfiling)
+        BIND(STR(?c_Data_Subject_Count_To) as ?o_hasDataSubject)
+        BIND(STR(?c_Is_Data_Controller) as ?o_hasDataController)
+        BIND(STR(?c_Is_Joint_Data_Controller) as ?o_hasDataController_2)
+        BIND(STR(?c_Is_Data_Processor) as ?o_hasProcessor)
+        BIND(STR(?c_Is_Nominated_Represented) as ?o_hasRepresentative)
+        BIND(STR(?c_Is_Data_Recipient) as ?o_hasRecipient)
+        BIND(STR(?c_Created_Date_Time) as ?o_created)
+        BIND(IRI(mapper:encode_iri(upsilon:, ?c_Jurisdiction_where_the_processing_primarily_takes_place)) as ?o_hasJurisdiction)
+        BIND(IRI(mapper:encode_iri(upsilon:, ?c_Other_jurisdictions_where_processing_of_data_takes_place)) as ?o_hasJurisdiction_2)
+        BIND(STR(?c_notes) as ?o_Notes)
+    }
+}

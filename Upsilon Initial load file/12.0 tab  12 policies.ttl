@@ -1,0 +1,65 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:25003.0 a dpcat:ROPARecord;
+  terms:description "Physical Security for Uniphar PLC";
+  dpcat:hasStatus "No";
+  dpv:hasTechnicalOrganisationalMeasure "SOP- 01-030 Security Citywest Policy", "SOP- 22-018 Greenogue Security Policy" .
+
+upsilon:25107.0 a dpcat:ROPARecord;
+  terms:description "Disciplinary Process";
+  dpcat:hasStatus "No";
+  dpv:hasTechnicalOrganisationalMeasure "WorkDay Data Processing Agreement/ MSA / TOMs",
+    "WorkDay Supplier Due Diligence" .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  terms:description "Illness and Absence Management";
+  dpcat:hasStatus "No";
+  dpv:hasTechnicalOrganisationalMeasure "WorkDay Data Processing Agreement/ MSA / TOMs",
+    "WorkDay Supplier Due Diligence" .
+
+upsilon:25127.0 a dpcat:ROPARecord;
+  terms:description "Data Protection Compliance";
+  dpcat:hasStatus "No";
+  dpv:hasTechnicalOrganisationalMeasure "QP-29-001 Data Protection Policy", "QP-29-003 Governance Policy" .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  terms:description "Mobile Device provision and support";
+  dpcat:hasStatus "Yes";
+  dpv:hasTechnicalOrganisationalMeasure "BYOD Policy" .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:description "Organisation of business travel";
+  dpcat:hasStatus "No";
+  dpv:hasTechnicalOrganisationalMeasure "Uniphar Business Travel Policy" .
+
+upsilon:26219.0 a dpcat:ROPARecord;
+  terms:description "Operation of Corporate Website";
+  dpcat:hasStatus "No";
+  dpv:hasTechnicalOrganisationalMeasure "Privacy Statement 03112020" .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:description "Support Oracle Databases";
+  dpcat:hasStatus "No";
+  dpv:hasTechnicalOrganisationalMeasure "IBM DPA", "IBM DPA - updated laws", "IBM SCC's",
+    "IBM Sub-Processor list", "IBM support contract unsigned", "IBM TOM's" .
+
+upsilon:26378.0 a dpcat:ROPARecord;
+  terms:description "Process Automation";
+  dpcat:hasStatus "No";
+  dpv:hasTechnicalOrganisationalMeasure "UiPath TOMs" .
+
+upsilon:29820.0 a dpcat:ROPARecord;
+  terms:description "Implementation of SSO";
+  dpcat:hasStatus "Yes";
+  dpv:hasTechnicalOrganisationalMeasure "Acceptable Usage Policy" .

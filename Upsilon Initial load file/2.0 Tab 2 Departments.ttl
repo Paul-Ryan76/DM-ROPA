@@ -1,0 +1,474 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix : <https://w3id.org/dpcat/examples/UPSILON/HR01a#> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24997.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Human Resource Processing Activities - Uniphar PLC" .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Onboarding new employees (Offer)" .
+
+upsilon:25000.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Finance Activities - Uniphar PLC" .
+
+upsilon:25001.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Finance%20Uniphar%20PLC;
+  terms:hasDescription "Payables processing" .
+
+upsilon:25003.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Facilities;
+  terms:hasDescription "Physical Security for Uniphar PLC" .
+
+upsilon:25007.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Quality;
+  terms:hasDescription "Quality Compliance" .
+
+upsilon:25008.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Corporate;
+  terms:hasDescription "Operation of Website (refer to corporate activities)" .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Facilities;
+  terms:hasDescription "Physical Security of Sites" .
+
+upsilon:25011.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Allphar%20Finance;
+  terms:hasDescription "Distribution Client Management" .
+
+upsilon:25014.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Commercial%20Uniphar;
+  terms:hasDescription "Operation of Website" .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Facilities;
+  terms:hasDescription "Staff Training" .
+
+upsilon:25053.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Quality;
+  terms:hasDescription "Staff Training -record keeping" .
+
+upsilon:25055.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Quality;
+  terms:hasDescription "Pharma co-vigilance record keeping" .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Provision of staff training" .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "Call Recording" .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "Operation of CRM System" .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Employee Expense Processing" .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Finance%20Uniphar%20PLC;
+  terms:hasDescription "Payroll Processing" .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources, upsilon:Finance%20Uniphar%20PLC;
+  terms:hasDescription "Employee Expense Processing" .
+
+upsilon:25074.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Finance%20Uniphar%20PLC;
+  terms:hasDescription "New Supplier Onboarding" .
+
+upsilon:25075.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Quality, upsilon:Operations;
+  terms:hasDescription "Quality Investigations" .
+
+upsilon:25078.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Quality;
+  terms:hasDescription "Complaint Handling" .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources, upsilon:Legal;
+  terms:hasDescription "Accident reporting and investigation" .
+
+upsilon:25096.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Software Deployment and support" .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Helpdesk Management" .
+
+upsilon:25107.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Disciplinary Process" .
+
+upsilon:25108.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Redundancy Process" .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Fleet Management for drivers of company provided vehicles" .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Illness and Absence Management" .
+
+upsilon:25111.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Bullying investigations" .
+
+upsilon:25112.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Industrial relations - negotiations" .
+
+upsilon:25114.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Diversity programme" .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Learning and Development" .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Compensation and Benefits Admin" .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Performance Management" .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Staff Recruitment ( Internal Roles)" .
+
+upsilon:25123.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Interview of candidates" .
+
+upsilon:25125.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Pre Employment Screening (references)" .
+
+upsilon:25126.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Pre Employment Screening ( Health Check)" .
+
+upsilon:25127.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Allphar%20Finance, upsilon:Facilities, upsilon:Human%20Resources,
+    upsilon:IT%20Services, upsilon:Quality;
+  terms:hasDescription "Data Protection Compliance" .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Desk Booking and meeting room booking Service" .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services, upsilon:Quality, upsilon:Allphar%20Finance,
+    upsilon:Operations;
+  terms:hasDescription "Distribution / Patient Service Management" .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Mobile Device provision and support" .
+
+upsilon:25224.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Employee Leave management" .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services, upsilon:Quality, upsilon:Allphar%20Finance,
+    upsilon:Operations;
+  terms:hasDescription "HIPRA UK AND IRELAND Ltd. Distribution service" .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services, upsilon:Quality, upsilon:Allphar%20Finance,
+    upsilon:Operations;
+  terms:hasDescription "company 2" .
+
+upsilon:25272.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Legal;
+  terms:hasDescription "Legal Counsel support" .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Organisation of business travel" .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Quality;
+  terms:hasDescription "Manufacturing services (Qualified Person)" .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "BCT Support" .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Onboarding new employees (Induction)" .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Support SQL databases Iwacs and Iwacs Lite" .
+
+upsilon:25982.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Identity Access Control" .
+
+upsilon:25983.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Vulnerability Testing" .
+
+upsilon:26219.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Corporate;
+  terms:hasDescription "Operation of Corporate Website" .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Support Oracle Databases" .
+
+upsilon:26307.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Legal;
+  terms:hasDescription "M&A due diligence" .
+
+upsilon:26378.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Process Automation" .
+
+upsilon:26382.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Finance%20-%20Uniphar%20Wholesale, upsilon:Commercial%20Uniphar;
+  terms:hasDescription "Customer benefits management" .
+
+upsilon:26384.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Operations;
+  terms:hasDescription "Pick and pack customer orders" .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Support Microsoft 365 environment" .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services, upsilon:Quality, upsilon:Allphar%20Finance,
+    upsilon:Operations;
+  terms:hasDescription "company 2 (Copy)" .
+
+upsilon:26436.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Maintenance of HR records" .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Legal;
+  terms:hasDescription "Acquisition due diligence" .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "E-mail security" .
+
+upsilon:26917.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "S4Hanna Project" .
+
+upsilon:26918.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Contract Review Project" .
+
+upsilon:26919.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Cybersecurity Project Management" .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "online back-ups of Warehouse and SAP systems" .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Cloud Back up of Microsoft windows and oracle environment" .
+
+upsilon:26924.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Support SAP systems" .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "System log monitoring" .
+
+upsilon:27199.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Facilities;
+  terms:hasDescription "Health and Safety Services" .
+
+upsilon:27200.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Allphar%20Services;
+  terms:hasDescription "HR services (outsourced to Uniphar wholesale)" .
+
+upsilon:27221.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Allphar%20Finance, upsilon:Finance%20Uniphar%20PLC;
+  terms:hasDescription "Treasury Management" .
+
+upsilon:27711.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "PIMS Order Processing via Celtrino" .
+
+upsilon:27712.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "Marketplace Optimum via Celtrino" .
+
+upsilon:27713.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "EDI orders via Celtrino" .
+
+upsilon:27715.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "SAP Orders" .
+
+upsilon:27716.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "BCT Orders" .
+
+upsilon:27717.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "Web Orders" .
+
+upsilon:27718.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Customer%20Service;
+  terms:hasDescription "OCR Orders" .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "General Project Management" .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Central Recruitment for Internal roles" .
+
+upsilon:29311.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Allphar%20Finance;
+  terms:hasDescription "Financial Reporting" .
+
+upsilon:29322.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Allphar%20Finance;
+  terms:hasDescription "Financial Reporting" .
+
+upsilon:29330.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Allphar%20Finance;
+  terms:hasDescription "Tax Reporting" .
+
+upsilon:29673.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Data sensitivity cataloging" .
+
+upsilon:29789.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Network Segmentation" .
+
+upsilon:29790.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "AIX resiliency" .
+
+upsilon:29820.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Implementation of SSO" .
+
+upsilon:29837.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "PIMS Order Processing - SAP Interface Channel" .
+
+upsilon:29872.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Online Back up of Microsoft windows and oracle environment" .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Cloud back-ups of Warehouse and SAP systems" .
+
+upsilon:30634.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "SAP Archiving Process" .
+
+upsilon:30635.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "DOE Order placing" .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Operations;
+  terms:hasDescription "Gather Proof of Delivery" .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Staff recruitment Equal Opportunities Monitoring" .
+
+upsilon:30725.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Workday Project" .
+
+upsilon:30920.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Privilege Access Management" .
+
+upsilon:30923.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "End Point Protection and detection - Anti-Malware" .
+
+upsilon:30926.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Asset Management Tracking" .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Pension administration" .
+
+upsilon:31173.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Private health Payment processing" .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Health assessment - fitness to work" .
+
+upsilon:32413.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Finance;
+  terms:hasDescription "Conduct Financial Audit" .
+
+upsilon:32414.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Human%20Resources;
+  terms:hasDescription "Operate Cycle to Work Scheme" .
+
+upsilon:32629.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Cloud Architecture Migration Design" .
+
+upsilon:32697.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Operations;
+  terms:hasDescription "Monitor employee time and attendance" .
+
+upsilon:32767.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Secure File Share service" .
+
+upsilon:32768.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Patch monitoring and delivery" .
+
+upsilon:32769.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Managed Detection and Response" .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:Corporate;
+  terms:hasDescription "Operate Newsletter for Corporate Investors" .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  dpv:hasOrganisationalUnit upsilon:IT%20Services;
+  terms:hasDescription "Password Management services" .

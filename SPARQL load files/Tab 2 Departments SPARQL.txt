@@ -1,0 +1,23 @@
+BASE <http://example.com/base/>
+PREFIX mapper: <http://www.ontotext.com/mapper/>
+PREFIX : <https://w3id.org/dpcat/examples/UPSILON/HR01a#>
+PREFIX upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#>
+PREFIX dpcat: <https://w3id.org/dpcat#>
+PREFIX dpv: <https://w3id.org/dpv/dpv-skos#>
+PREFIX terms: <http://purl.org/dc/terms/>
+
+CONSTRUCT {
+    ?s1 a dpcat:ROPARecord ;
+        dpv:hasOrganisationalUnit ?o_hasOrganisationalUnit ;
+        terms:hasDescription ?o_hasDescription .
+} WHERE {
+    SERVICE <rdf-mapper:ontorefine:1726938336819> {
+        # Columns as variables:
+        #   ?c_Activity_ID, ?c_Activity_Name, ?c_Department
+        # Metadata as variables:
+        #   ?row_index, ?record_id
+        BIND(IRI(mapper:encode_iri(upsilon:, ?c_Activity_ID)) as ?s1)
+        BIND(IRI(mapper:encode_iri(upsilon:, ?c_Department)) as ?o_hasOrganisationalUnit)
+        BIND(STR(?c_Activity_Name) as ?o_hasDescription)
+    }
+}

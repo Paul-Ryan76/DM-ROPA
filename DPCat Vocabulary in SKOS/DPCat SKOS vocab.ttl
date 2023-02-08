@@ -1,0 +1,57 @@
+
+<https://w3id.org/dpcat#> a <http://www.w3.org/2002/07/owl#Ontology>;
+  <http://purl.org/dc/terms/abstract> "DPCat is a Specification for an interoperable and machine-readable data processing catalogue based on General Data Protection Regulation (GDPR) Requirements and EU DPA guidelines. It extends Data Catalog Vocabulary (DCAT) - Version 2 and DCAT Application profile for data portals in Europe (DCAT-AP) standards and reuses Data Privacy Vocabulary (DPV) Specification to enable data governance of ROPA and related information across a wide variety of use-cases."@en;
+  <http://purl.org/dc/terms/created> "2022-04-02"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://purl.org/dc/terms/creator> "Harshvardhan J. Pandit", "Paul Ryan", "Rob Brennan";
+  <http://purl.org/dc/terms/description> "DPCat extends the DCAT Application profile for data portals in Europe< (DCAT-AP) with concepts identified in CSM-ROPA using DPV to enable representation of ROPA and associated information as ’catalogues’ and ’datasets’ respectively, that can be recorded and exchanged between stakeholders. DCAT-AP is a profile of the Data Catalog Vocabulary (DCAT v2) - a W3C standard for facilitating interoperability between data catalogues. DPCat maintains compatibility with DCAT-AP, and through it with DCAT, thereby enabling it to be used in all catalogue-based information management tools and data portals that support DCAT. In particular, the choice of DCAT-AP was made to present a mechanism for sharing ROPA related information using an EU-advocated standard and to promote the possibility of reusing existing data portal infrastructures for compliance-related purposes - such as requirements for ROPA between controllers, processors, and DPAs."@en;
+  <http://purl.org/dc/terms/license> <http://www.apache.org/licenses/LICENSE-2.0>;
+  <http://purl.org/dc/terms/modified> "2022-04-02"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://purl.org/dc/terms/title> "Data Processing Catalog (DPCat)"@en;
+  <http://purl.org/vocab/vann/preferredNamespacePrefix> "dpcat";
+  <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/dpcat";
+  <http://www.w3.org/2002/07/owl#versionInfo> "0.2" .
+
+<https://w3id.org/dpcat#DataBreachRecord> a <http://www.w3.org/2000/01/rdf-schema#Class>,
+    <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "A Record of a Data Breach"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Breach Record"@en .
+
+<https://w3id.org/dpcat#ROPA> a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://purl.org/vocab/vann/usageNote> "A ROPA is typically a document that contains several entries. In DPCat, this is represented by subclassing dcat:Catalog as dpcat:ROPA which can be associated with one or more dpcat:ROPARecord instances."@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Catalog>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Represents a ROPA document or artefact, as a 'catalog of ROPARecord' instances"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ROPA"@en .
+
+<https://w3id.org/dpcat#ROPACatalog> a <http://www.w3.org/2000/01/rdf-schema#Class>,
+    <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://purl.org/vocab/vann/usageNote> "A ROPA is typically a document that contains several entries. In DPCat, this is represented by subclassing dcat:Catalog as dpcat:ROPA which can be associated with one or more dpcat:ROPARecord instances."@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Catalog>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Represents a ROPA document or artefact, as a 'catalog of ROPARecord' instances"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ROPA"@en .
+
+<https://w3id.org/dpcat#ROPARecord> a <http://www.w3.org/2000/01/rdf-schema#Class>,
+    <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://purl.org/vocab/vann/usageNote> "A ROPA is typically a document that contains several entries. In DPCat, this is represented by subclassing dcat:Catalog as dpcat:ROPA which can be associated with one or more dpcat:ROPARecord instances."@en;
+  <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Catalog>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Represents a ROPA document or artefact, as a 'catalog of ROPARecord' instances"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ROPA"@en .
+
+<https://w3id.org/dpcat#Status> a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Status of activity or entity or artefact"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Status"@en .
+
+<https://w3id.org/dpcat#associatedWithDataBreach> a <http://www.w3.org/2000/01/rdf-schema#Property>,
+    <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://purl.org/vocab/vann/usageNote> "Recommended: A ROPARecord SHOULD indicate associated Data Breaches, where relevant, for processing activities using dpv:associatedWithDataBreach."@en;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dpcat#ROPARecord>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/dpcat#DataBreachRecord>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Indicates an associated Data Breach for processing activities in ROPARecord"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "associated with data breach"@en .
+
+<https://w3id.org/dpcat#hasStatus> a <http://www.w3.org/2000/01/rdf-schema#Property>,
+    <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://purl.org/vocab/vann/usageNote> "Recommended: A ROPARecord SHOULD indicate status of processing activities using dpcat:hasStatus.";
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dpcat#ROPARecord>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/dpcat#Status>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Indicates status of data processing activities in ROPARecord"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "has status"@en .

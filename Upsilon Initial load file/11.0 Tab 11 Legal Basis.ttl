@@ -1,0 +1,479 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24933.0 a dpcat:ROPARecord;
+  terms:hasDescription "Uniphar PLC (Controller) ROPA";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Government%20identifiers%2C%20e.g.%2C%20social%20security%20numbers, <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29>,
+    upsilon:Financial%20Information .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  terms:hasDescription "Onboarding new employees (Offer)";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity, upsilon:Legitimate%20interests;
+  dpv:hasPersonalData <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29>,
+    upsilon:Financial%20Information .
+
+upsilon:25001.0 a dpcat:ROPARecord;
+  terms:hasDescription "Payables processing";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25007.0 a dpcat:ROPARecord;
+  terms:hasDescription "Quality Compliance";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25008.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operation of Website (refer to corporate activities)";
+  dpv:hasLegalBasis upsilon:Consent, upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person;
+  dpv:hasConsent "Not sure";
+  dpv:hasExplicitConsent "Not sure" .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  terms:hasDescription "Physical Security of Sites";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25014.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operation of Website";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  terms:hasDescription "Staff Training";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25053.0 a dpcat:ROPARecord;
+  terms:hasDescription "Staff Training -record keeping";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:hasDescription "Provision of staff training";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation, upsilon:Legitimate%20interests,
+    upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:hasDescription "Call Recording";
+  dpv:hasLegalBasis upsilon:Consent;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person;
+  dpv:hasConsent "Not sure";
+  dpv:hasExplicitConsent "Not sure" .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operation of CRM System";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity, upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  terms:hasDescription "Employee Expense Processing";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  terms:hasDescription "Payroll Processing";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  terms:hasDescription "Employee Expense Processing";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:25074.0 a dpcat:ROPARecord;
+  terms:hasDescription "New Supplier Onboarding";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25075.0 a dpcat:ROPARecord;
+  terms:hasDescription "Quality Investigations";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25078.0 a dpcat:ROPARecord;
+  terms:hasDescription "Complaint Handling";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25080.0 a dpcat:ROPARecord;
+  terms:hasDescription "Master Data Management";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation, upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Financial%20Information .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  terms:hasDescription "Accident reporting and investigation";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity, upsilon:Compliance%20with%20legal%20obligation,
+    upsilon:Employment%20law, upsilon:Legal%20claims, upsilon:Assessment%20of%20working%20capacity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:25096.0 a dpcat:ROPARecord;
+  terms:hasDescription "Software Deployment and support";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  terms:hasDescription "Helpdesk Management";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25108.0 a dpcat:ROPARecord;
+  terms:hasDescription "Redundancy Process";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  terms:hasDescription "Fleet Management for drivers of company provided vehicles";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  terms:hasDescription "Illness and Absence Management";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity, upsilon:Compliance%20with%20legal%20obligation,
+    upsilon:Legitimate%20interests, upsilon:Assessment%20of%20working%20capacity;
+  dpv:hasPersonalData upsilon:Government%20identifiers%2C%20e.g.%2C%20social%20security%20numbers,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:25111.0 a dpcat:ROPARecord;
+  terms:hasDescription "Bullying investigations";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation, upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:hasDescription "Learning and Development";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  terms:hasDescription "Compensation and Benefits Admin";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests, upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  terms:hasDescription "Performance Management";
+  dpv:hasLegalBasis upsilon:Explicit%20consent, upsilon:Employment%20law;
+  dpv:hasPersonalData upsilon:Trade%20union%20membership .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  terms:hasDescription "Staff Recruitment ( Internal Roles)";
+  dpv:hasLegalBasis upsilon:Consent;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person;
+  dpv:hasConsent "Not sure";
+  dpv:hasExplicitConsent "Not sure" .
+
+upsilon:25123.0 a dpcat:ROPARecord;
+  terms:hasDescription "Interview of candidates";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25125.0 a dpcat:ROPARecord;
+  terms:hasDescription "Pre Employment Screening (references)";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25126.0 a dpcat:ROPARecord;
+  terms:hasDescription "Pre Employment Screening ( Health Check)";
+  dpv:hasLegalBasis upsilon:Consent, upsilon:Assessment%20of%20working%20capacity, upsilon:Preventive%20or%20Occupational%20medicine;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation;
+  dpv:hasConsent "Not sure";
+  dpv:hasExplicitConsent "Not sure" .
+
+upsilon:25127.0 a dpcat:ROPARecord;
+  terms:hasDescription "Data Protection Compliance";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:hasDescription "Desk Booking and meeting room booking Service";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  terms:hasDescription "Distribution / Patient Service Management";
+  dpv:hasLegalBasis upsilon:Medical%20diagnosis, upsilon:Explicit%20consent;
+  dpv:hasPersonalData upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  terms:hasDescription "Mobile Device provision and support";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25224.0 a dpcat:ROPARecord;
+  terms:hasDescription "Employee Leave management";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  terms:hasDescription "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  terms:hasDescription "company 2";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25272.0 a dpcat:ROPARecord;
+  terms:hasDescription "Legal Counsel support";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity, upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:hasDescription "Organisation of business travel";
+  dpv:hasLegalBasis upsilon:Consent;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Government%20identifiers%2C%20e.g.%2C%20social%20security%20numbers;
+  dpv:hasConsent "No";
+  dpv:hasExplicitConsent "No" .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  terms:hasDescription "Manufacturing services (Qualified Person)";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  terms:hasDescription "BCT Support";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  terms:hasDescription "Onboarding new employees (Induction)";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity, upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:hasDescription "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:25983.0 a dpcat:ROPARecord;
+  terms:hasDescription "Vulnerability Testing";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26203.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operate B2B Website - Uniphar Wholesale";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26204.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operate B2C Website AYA ( not yet active)";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26219.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operation of Corporate Website";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:hasDescription "Support Oracle Databases";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26307.0 a dpcat:ROPARecord;
+  terms:hasDescription "M&A due diligence";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26384.0 a dpcat:ROPARecord;
+  terms:hasDescription "Pick and pack customer orders";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  terms:hasDescription "Support Microsoft 365 environment";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  terms:hasDescription "company 2 (Copy)";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26436.0 a dpcat:ROPARecord;
+  terms:hasDescription "Maintenance of HR records";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity, upsilon:Compliance%20with%20legal%20obligation,
+    upsilon:Employment%20law, upsilon:Preventive%20or%20Occupational%20medicine, upsilon:Assessment%20of%20working%20capacity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Government%20identifiers%2C%20e.g.%2C%20social%20security%20numbers, <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29>,
+    upsilon:Data%20pertaining%20to%20children%20aged%2016%20or%20under, upsilon:Financial%20Information,
+    upsilon:Racial%20or%20ethnic%20origin, upsilon:Trade%20union%20membership, upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  terms:hasDescription "Acquisition due diligence";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  terms:hasDescription "E-mail security";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  terms:hasDescription "online back-ups of Warehouse and SAP systems";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  terms:hasDescription "Cloud Back up of Microsoft windows and oracle environment";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests, upsilon:Explicit%20consent;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information, upsilon:Non-sensitive%20personal%20information, upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:26924.0 a dpcat:ROPARecord;
+  terms:hasDescription "Support SAP systems";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  terms:hasDescription "System log monitoring";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:hasDescription "General Project Management";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  terms:hasDescription "Central Recruitment for Internal roles";
+  dpv:hasLegalBasis upsilon:Explicit%20consent, upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29311.0 a dpcat:ROPARecord;
+  terms:hasDescription "Financial Reporting";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Financial%20Information .
+
+upsilon:29322.0 a dpcat:ROPARecord;
+  terms:hasDescription "Financial Reporting";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29330.0 a dpcat:ROPARecord;
+  terms:hasDescription "Tax Reporting";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Financial%20Information .
+
+upsilon:29673.0 a dpcat:ROPARecord;
+  terms:hasDescription "Data sensitivity cataloging";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29820.0 a dpcat:ROPARecord;
+  terms:hasDescription "Implementation of SSO";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:29872.0 a dpcat:ROPARecord;
+  terms:hasDescription "Online Back up of Microsoft windows and oracle environment";
+  dpv:hasLegalBasis upsilon:Explicit%20consent;
+  dpv:hasPersonalData upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  terms:hasDescription "Gather Proof of Delivery";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests, upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  terms:hasDescription "Staff recruitment Equal Opportunities Monitoring";
+  dpv:hasLegalBasis upsilon:Consent, upsilon:Employment%20law, upsilon:Explicit%20consent;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Racial%20or%20ethnic%20origin, upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Religious%20or%20philosophical%20beliefs;
+  dpv:hasConsent "Yes";
+  dpv:hasExplicitConsent "Yes" .
+
+upsilon:30920.0 a dpcat:ROPARecord;
+  terms:hasDescription "Privilege Access Management";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  terms:hasDescription "Pension administration";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:31173.0 a dpcat:ROPARecord;
+  terms:hasDescription "Private health Payment processing";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:32400.0 a dpcat:ROPARecord;
+  terms:hasDescription "Delivery of Customer Orders";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Location%20data%20%28including%20IP%20Address%2C%20Eircode/Zip%20Code%20of%20a%20domestic%20property%20with%20a%20single%20occupant%29> .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  terms:hasDescription "Health assessment - fitness to work";
+  dpv:hasLegalBasis upsilon:Assessment%20of%20working%20capacity, upsilon:Consent;
+  dpv:hasPersonalData upsilon:Data%20relating%20to%20health%20or%20sexual%20life%20and%20sexual%20orientation,
+    upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person;
+  dpv:hasConsent "Yes";
+  dpv:hasExplicitConsent "Yes" .
+
+upsilon:32413.0 a dpcat:ROPARecord;
+  terms:hasDescription "Conduct Financial Audit";
+  dpv:hasLegalBasis upsilon:Compliance%20with%20legal%20obligation;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information .
+
+upsilon:32414.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operate Cycle to Work Scheme";
+  dpv:hasLegalBasis upsilon:Consent;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person,
+    upsilon:Financial%20Information;
+  dpv:hasConsent "Not sure";
+  dpv:hasExplicitConsent "Not sure" .
+
+upsilon:32697.0 a dpcat:ROPARecord;
+  terms:hasDescription "Monitor employee time and attendance";
+  dpv:hasLegalBasis upsilon:Contractual%20necessity, upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:32767.0 a dpcat:ROPARecord;
+  terms:hasDescription "Secure File Share service";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:32769.0 a dpcat:ROPARecord;
+  terms:hasDescription "Managed Detection and Response";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operate Newsletter for Corporate Investors";
+  dpv:hasLegalBasis upsilon:Consent;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person;
+  dpv:hasConsent "Yes";
+  dpv:hasExplicitConsent "Yes" .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  terms:hasDescription "Password Management services";
+  dpv:hasLegalBasis upsilon:Legitimate%20interests;
+  dpv:hasPersonalData upsilon:Any%20direct%20or%20indirect%20reference%20to%20a%20living%20individual%20which%20identifies%20that%20person .

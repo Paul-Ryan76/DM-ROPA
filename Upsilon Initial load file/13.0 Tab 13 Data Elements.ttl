@@ -1,0 +1,273 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Offer)";
+  dpv:hasPersonalData upsilon:Contact%20Data, upsilon:Identification%20data, upsilon:Communication%20Data,
+    upsilon:Recruitment%20Data, upsilon:Referee%20Data, upsilon:Health%20Data, upsilon:Special%20Category%20Data,
+    upsilon:Employee%20Role%20Data .
+
+upsilon:25001.0 a dpcat:ROPARecord;
+  terms:description "Payables processing";
+  dpv:hasPersonalData upsilon:Contact%20Data, upsilon:Name, upsilon:Email%20address .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  terms:description "Physical Security of Sites";
+  dpv:hasPersonalData upsilon:Identification%20data, upsilon:CCTV%20data .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  terms:description "Staff Training";
+  dpv:hasPersonalData upsilon:Training%20Records, upsilon:Name .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:description "Provision of staff training";
+  dpv:hasPersonalData upsilon:Training%20Records .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:description "Call Recording";
+  dpv:hasPersonalData upsilon:Call%20Recording .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasPersonalData upsilon:Expenses%20Data .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  terms:description "Payroll Processing";
+  dpv:hasPersonalData upsilon:Financial%20and%20Tax%20Data, <https://w3id.org/dpcat/examples/UPSILON/vocab#Bank%20/%20Financial%20Services%20Account%20Number> .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasPersonalData upsilon:Expenses%20Data .
+
+upsilon:25074.0 a dpcat:ROPARecord;
+  terms:description "New Supplier Onboarding";
+  dpv:hasPersonalData upsilon:Contact%20Data, upsilon:Name, upsilon:Email%20address .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  terms:description "Accident reporting and investigation";
+  dpv:hasPersonalData upsilon:Health%20Data, upsilon:Identification%20data, upsilon:Contact%20Data,
+    upsilon:CCTV%20data .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  terms:description "Helpdesk Management";
+  dpv:hasPersonalData upsilon:Email%20address .
+
+upsilon:25107.0 a dpcat:ROPARecord;
+  terms:description "Disciplinary Process";
+  dpv:hasPersonalData upsilon:Performance%20Data, upsilon:Employee%20Role%20Data .
+
+upsilon:25108.0 a dpcat:ROPARecord;
+  terms:description "Redundancy Process";
+  dpv:hasPersonalData upsilon:Employee%20Role%20Data, upsilon:Financial%20and%20Tax%20Data .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  terms:description "Fleet Management for drivers of company provided vehicles";
+  dpv:hasPersonalData upsilon:Driving%20licence .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  terms:description "Illness and Absence Management";
+  dpv:hasPersonalData upsilon:Financial%20and%20Tax%20Data, upsilon:Employee%20Role%20Data,
+    upsilon:Health%20Data, <https://w3id.org/dpcat/examples/UPSILON/vocab#PPS%20/%20Social%20Security%20Number>,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Medical%20Condition%20/%20Diagnosis>,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Disability%20/%20Mobility%20Details> .
+
+upsilon:25111.0 a dpcat:ROPARecord;
+  terms:description "Bullying investigations";
+  dpv:hasPersonalData upsilon:Communication%20Data, upsilon:CCTV%20data .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:description "Learning and Development";
+  dpv:hasPersonalData upsilon:Training%20Records .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  terms:description "Compensation and Benefits Admin";
+  dpv:hasPersonalData upsilon:Employee%20Role%20Data, upsilon:Name, upsilon:Employee%20Benefits .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  terms:description "Performance Management";
+  dpv:hasPersonalData upsilon:Employee%20Role%20Data, upsilon:Performance%20Data, upsilon:Identification%20data .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  terms:description "Staff Recruitment ( Internal Roles)";
+  dpv:hasPersonalData upsilon:Contact%20Data, upsilon:Recruitment%20Data, upsilon:Referee%20Data,
+    upsilon:Name, upsilon:Title, upsilon:Email%20address, upsilon:Landline%20number, upsilon:CV,
+    upsilon:Qualifications, upsilon:Employment%20History .
+
+upsilon:25123.0 a dpcat:ROPARecord;
+  terms:description "Interview of candidates";
+  dpv:hasPersonalData upsilon:Employee%20Role%20Data .
+
+upsilon:25125.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening (references)";
+  dpv:hasPersonalData upsilon:Referee%20Data .
+
+upsilon:25126.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening ( Health Check)";
+  dpv:hasPersonalData upsilon:Health%20Data .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  terms:description "Distribution / Patient Service Management";
+  dpv:hasPersonalData upsilon:Next%20of%20Kin, upsilon:Landline%20number, upsilon:Date%20of%20Birth,
+    upsilon:Unique%20Customer%20Identifier, <https://w3id.org/dpcat/examples/UPSILON/vocab#Medical%20Condition%20/%20Diagnosis>,
+    upsilon:Postal%20Address, upsilon:Email%20address, upsilon:Name, upsilon:Mobile%20phone%20number .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  terms:description "Mobile Device provision and support";
+  dpv:hasPersonalData upsilon:Mobile%20phone%20number, upsilon:Contact%20Data .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  terms:description "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:hasPersonalData upsilon:Mobile%20phone%20number, upsilon:Email%20address, upsilon:Name .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  terms:description "company 2";
+  dpv:hasPersonalData upsilon:Name, upsilon:Mobile%20phone%20number, upsilon:Email%20address .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:description "Organisation of business travel";
+  dpv:hasPersonalData upsilon:Unique%20Employee%20Identifier, upsilon:Contact%20Data,
+    upsilon:Passport%20Number, upsilon:Travel%20Data .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Induction)";
+  dpv:hasPersonalData upsilon:Next%20of%20Kin, upsilon:Contact%20Data, upsilon:Identification%20data,
+    upsilon:Communication%20Data, upsilon:Financial%20and%20Tax%20Data .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:description "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasPersonalData upsilon:Identification%20data, upsilon:Employee%20Role%20Data,
+    upsilon:Email%20address .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:description "Support Oracle Databases";
+  dpv:hasPersonalData upsilon:Email%20address .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  terms:description "Support Microsoft 365 environment";
+  dpv:hasPersonalData upsilon:Email%20address, upsilon:Employee%20Role%20Data .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  terms:description "company 2 (Copy)";
+  dpv:hasPersonalData upsilon:Email%20address, upsilon:Mobile%20phone%20number, upsilon:Name .
+
+upsilon:26416.0 a dpcat:ROPARecord;
+  terms:description "99326_Ascensia Diabetes Care Ireland Ltd_Ascensia Diabetes Care Ireland Ltd__4045 Kingswood Road_Citywest Business Park___Dublin_DB_24_IE";
+  dpv:hasPersonalData upsilon:Health%20Data .
+
+upsilon:26417.0 a dpcat:ROPARecord;
+  terms:description "99309_CARAGEN LIMITED_CARAGEN LIMITED__1st Floor, Suite 32 The Mall_Beacon Court___Sandyford_DB_D18 AYF3_IE";
+  dpv:hasPersonalData upsilon:Health%20Data .
+
+upsilon:26436.0 a dpcat:ROPARecord;
+  terms:description "Maintenance of HR records";
+  dpv:hasPersonalData upsilon:Employee%20Role%20Data, upsilon:Performance%20Data, upsilon:Health%20Data,
+    upsilon:Name, upsilon:Postal%20Address, upsilon:Mobile%20phone%20number, upsilon:Date%20of%20Birth,
+    upsilon:Landline%20number, upsilon:Nationality, <https://w3id.org/dpcat/examples/UPSILON/vocab#Disability%20/%20Mobility%20Details>,
+    upsilon:Contact%20Data, upsilon:Next%20of%20Kin, <https://w3id.org/dpcat/examples/UPSILON/vocab#PPS%20/%20Social%20Security%20Number>,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Bank%20/%20Financial%20Services%20Account%20Number>,
+    upsilon:Financial%20and%20Tax%20Data .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  terms:description "Acquisition due diligence";
+  dpv:hasPersonalData upsilon:Financial%20and%20Tax%20Data, upsilon:Employee%20Role%20Data .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  terms:description "E-mail security";
+  dpv:hasPersonalData upsilon:Email%20address, upsilon:email%20content .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  terms:description "online back-ups of Warehouse and SAP systems";
+  dpv:hasPersonalData <https://w3id.org/dpcat/examples/UPSILON/vocab#Bank%20/%20Financial%20Services%20Account%20Number>,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#PPS%20/%20Social%20Security%20Number>,
+    upsilon:Unique%20Customer%20Identifier, upsilon:Unique%20Employee%20Identifier, upsilon:Contact%20Data,
+    upsilon:Expenses%20Data, upsilon:Financial%20and%20Tax%20Data, upsilon:Communication%20Data .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  terms:description "Cloud Back up of Microsoft windows and oracle environment";
+  dpv:hasPersonalData upsilon:Communication%20Data, upsilon:Contact%20Data, upsilon:Name,
+    upsilon:email%20content .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  terms:description "System log monitoring";
+  dpv:hasPersonalData upsilon:System%20Logs .
+
+upsilon:27221.0 a dpcat:ROPARecord;
+  terms:description "Treasury Management";
+  dpv:hasPersonalData upsilon:Email%20address .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:description "General Project Management";
+  dpv:hasPersonalData upsilon:Contact%20Data, upsilon:Meeting%20video%20recordings .
+
+upsilon:29311.0 a dpcat:ROPARecord;
+  terms:description "Financial Reporting";
+  dpv:hasPersonalData upsilon:Financial%20and%20Tax%20Data .
+
+upsilon:29322.0 a dpcat:ROPARecord;
+  terms:description "Financial Reporting";
+  dpv:hasPersonalData upsilon:Financial%20and%20Tax%20Data .
+
+upsilon:29330.0 a dpcat:ROPARecord;
+  terms:description "Tax Reporting";
+  dpv:hasPersonalData upsilon:Financial%20and%20Tax%20Data .
+
+upsilon:29820.0 a dpcat:ROPARecord;
+  terms:description "Implementation of SSO";
+  dpv:hasPersonalData upsilon:Email%20address .
+
+upsilon:29872.0 a dpcat:ROPARecord;
+  terms:description "Online Back up of Microsoft windows and oracle environment";
+  dpv:hasPersonalData upsilon:Name, upsilon:Contact%20Data, upsilon:Communication%20Data,
+    upsilon:email%20content .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  terms:description "Cloud back-ups of Warehouse and SAP systems";
+  dpv:hasPersonalData upsilon:Communication%20Data, upsilon:Contact%20Data, upsilon:Expenses%20Data,
+    upsilon:Financial%20and%20Tax%20Data, upsilon:Unique%20Customer%20Identifier, upsilon:Unique%20Employee%20Identifier,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#PPS%20/%20Social%20Security%20Number>,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Bank%20/%20Financial%20Services%20Account%20Number> .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  terms:description "Gather Proof of Delivery";
+  dpv:hasPersonalData upsilon:Identification%20data .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  terms:description "Staff recruitment Equal Opportunities Monitoring";
+  dpv:hasPersonalData <https://w3id.org/dpcat/examples/UPSILON/vocab#Religious%20Affiliation%20/%20Denomination>,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Sexual%20Orientation%20/%20Designation>,
+    upsilon:Nationality, <https://w3id.org/dpcat/examples/UPSILON/vocab#Racial%20/%20Ethnic%20Identity>,
+    <https://w3id.org/dpcat/examples/UPSILON/vocab#Medical%20Condition%20/%20Diagnosis> .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  terms:description "Pension administration";
+  dpv:hasPersonalData upsilon:Financial%20and%20Tax%20Data .
+
+upsilon:32400.0 a dpcat:ROPARecord;
+  terms:description "Delivery of Customer Orders";
+  dpv:hasPersonalData upsilon:Contact%20Data .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  terms:description "Health assessment - fitness to work";
+  dpv:hasPersonalData <https://w3id.org/dpcat/examples/UPSILON/vocab#Medical%20Condition%20/%20Diagnosis> .
+
+upsilon:32413.0 a dpcat:ROPARecord;
+  terms:description "Conduct Financial Audit";
+  dpv:hasPersonalData upsilon:Financial%20and%20Tax%20Data .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:description "Operate Newsletter for Corporate Investors";
+  dpv:hasPersonalData upsilon:Contact%20Data .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  terms:description "Password Management services";
+  dpv:hasPersonalData upsilon:Identification%20data, upsilon:Unique%20Employee%20Identifier .

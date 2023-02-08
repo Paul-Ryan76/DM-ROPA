@@ -1,0 +1,391 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24933.0 a dpcat:ROPARecord;
+  terms:description "Uniphar PLC (Controller) ROPA";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees, upsilon:JobCandidates .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Offer)";
+  dpv:hasDataSubject upsilon:JobCandidates .
+
+upsilon:25001.0 a dpcat:ROPARecord;
+  terms:description "Payables processing";
+  dpv:hasDataSubject upsilon:Suppliers .
+
+upsilon:25007.0 a dpcat:ROPARecord;
+  terms:description "Quality Compliance";
+  dpv:hasDataSubject upsilon:Suppliers, upsilon:CurrentEmployees%20 .
+
+upsilon:25008.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website (refer to corporate activities)";
+  dpv:hasDataSubject upsilon:WebsiteB2Bvisitors .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  terms:description "Physical Security of Sites";
+  dpv:hasDataSubject upsilon:Visitors, upsilon:CurrentEmployees%20 .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  terms:description "Staff Training";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees .
+
+upsilon:25053.0 a dpcat:ROPARecord;
+  terms:description "Staff Training -record keeping";
+  dpv:hasDataSubject upsilon:FormerEmployees, upsilon:CurrentEmployees%20, upsilon:Suppliers .
+
+upsilon:25055.0 a dpcat:ROPARecord;
+  terms:description "Pharma co-vigilance record keeping";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:description "Provision of staff training";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:description "Call Recording";
+  dpv:hasDataSubject upsilon:Customers, upsilon:Suppliers .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  terms:description "Operation of CRM System";
+  dpv:hasDataSubject upsilon:Suppliers, upsilon:Customers .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasDataSubject upsilon:FormerEmployees, upsilon:CurrentEmployees%20 .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  terms:description "Payroll Processing";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees .
+
+upsilon:25074.0 a dpcat:ROPARecord;
+  terms:description "New Supplier Onboarding";
+  dpv:hasDataSubject upsilon:Suppliers .
+
+upsilon:25075.0 a dpcat:ROPARecord;
+  terms:description "Quality Investigations";
+  dpv:hasDataSubject upsilon:Customers, upsilon:Suppliers, upsilon:CurrentEmployees%20 .
+
+upsilon:25078.0 a dpcat:ROPARecord;
+  terms:description "Complaint Handling";
+  dpv:hasDataSubject upsilon:Customers, upsilon:Suppliers .
+
+upsilon:25080.0 a dpcat:ROPARecord;
+  terms:description "Master Data Management";
+  dpv:hasDataSubject upsilon:Suppliers, upsilon:Customers, upsilon:CurrentEmployees%20 .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  terms:description "Accident reporting and investigation";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:JobCandidates, upsilon:Suppliers,
+    upsilon:Customers, upsilon:Visitors .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  terms:description "Helpdesk Management";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25107.0 a dpcat:ROPARecord;
+  terms:description "Disciplinary Process";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25108.0 a dpcat:ROPARecord;
+  terms:description "Redundancy Process";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  terms:description "Fleet Management for drivers of company provided vehicles";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:Other%28pleasespecify%29 .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  terms:description "Illness and Absence Management";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25111.0 a dpcat:ROPARecord;
+  terms:description "Bullying investigations";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:description "Learning and Development";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  terms:description "Compensation and Benefits Admin";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  terms:description "Performance Management";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  terms:description "Staff Recruitment ( Internal Roles)";
+  dpv:hasDataSubject upsilon:JobCandidates, upsilon:CurrentEmployees%20 .
+
+upsilon:25125.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening (references)";
+  dpv:hasDataSubject upsilon:JobCandidates .
+
+upsilon:25126.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening ( Health Check)";
+  dpv:hasDataSubject upsilon:JobCandidates .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:description "Desk Booking and meeting room booking Service";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:Visitors .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  terms:description "Distribution / Patient Service Management";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients, upsilon:Suppliers .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  terms:description "Mobile Device provision and support";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25224.0 a dpcat:ROPARecord;
+  terms:description "Employee Leave management";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees .
+
+upsilon:25252.0 a dpcat:ROPARecord;
+  terms:description "99198_Fres Kabi Oncology_Fres Kabi Oncology Distribution";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  terms:description "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:hasDataSubject upsilon:Suppliers .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  terms:description "company 2";
+  dpv:hasDataSubject upsilon:Suppliers .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:description "Organisation of business travel";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25612.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website B2C";
+  dpv:hasDataSubject upsilon:WebsiteB2CCustomers .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  terms:description "Manufacturing services (Qualified Person)";
+  dpv:hasDataSubject upsilon:Customers, upsilon:CurrentEmployees%20, upsilon:FormerEmployees .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  terms:description "BCT Support";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:Customers .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Induction)";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:description "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:26203.0 a dpcat:ROPARecord;
+  terms:description "Operate B2B Website - Uniphar Wholesale";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:26204.0 a dpcat:ROPARecord;
+  terms:description "Operate B2C Website AYA ( not yet active)";
+  dpv:hasDataSubject upsilon:WebsiteB2CCustomers .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:description "Support Oracle Databases";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:26378.0 a dpcat:ROPARecord;
+  terms:description "Process Automation";
+  dpv:hasDataSubject upsilon:Customers, upsilon:Suppliers .
+
+upsilon:26382.0 a dpcat:ROPARecord;
+  terms:description "Customer benefits management";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:26384.0 a dpcat:ROPARecord;
+  terms:description "Pick and pack customer orders";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  terms:description "Support Microsoft 365 environment";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  terms:description "company 2 (Copy)";
+  dpv:hasDataSubject upsilon:Suppliers .
+
+upsilon:26411.0 a dpcat:ROPARecord;
+  terms:description "99199_Fresenius Kabi EN_Fresenius Kabi EN_Cestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26412.0 a dpcat:ROPARecord;
+  terms:description "99158_Fresenius Kabi Limited_Fresenius Kabi Limited_Crestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26413.0 a dpcat:ROPARecord;
+  terms:description "99201_Fresenius Kabi PN_Fresenius Kabi PN_Cestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26414.0 a dpcat:ROPARecord;
+  terms:description "99222_FRESENIUS KABI SAMPLES & PUMPS_FRESENIUS KABI SAMPLES & PUMPS_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26415.0 a dpcat:ROPARecord;
+  terms:description "99284_Fresenius Kabi St Solutions_Fresenius Kabi St Solutions______Runcorn_CH_WA7 1NT_GB";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26416.0 a dpcat:ROPARecord;
+  terms:description "99326_Ascensia Diabetes Care Ireland Ltd_Ascensia Diabetes Care Ireland Ltd__4045 Kingswood Road_Citywest Business Park___Dublin_DB_24_IE";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26417.0 a dpcat:ROPARecord;
+  terms:description "99309_CARAGEN LIMITED_CARAGEN LIMITED__1st Floor, Suite 32 The Mall_Beacon Court___Sandyford_DB_D18 AYF3_IE";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26418.0 a dpcat:ROPARecord;
+  terms:description "99223_FRESENIUS KABI ANCILLARIES_FRESENIUS KABI ANCILLARIES_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26419.0 a dpcat:ROPARecord;
+  terms:description "99227_FRESENIUS KABI PEDIATRIC_FRESENIUS KABI PEDIATRIC_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:Patients .
+
+upsilon:26436.0 a dpcat:ROPARecord;
+  terms:description "Maintenance of HR records";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  terms:description "Acquisition due diligence";
+  dpv:hasDataSubject upsilon:Other%28pleasespecify%29, upsilon:EmployeesofM%26Atargetcompany .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  terms:description "E-mail security";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  terms:description "online back-ups of Warehouse and SAP systems";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees, upsilon:Customers .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  terms:description "Cloud Back up of Microsoft windows and oracle environment";
+  dpv:hasDataSubject upsilon:Customers, upsilon:FormerEmployees, upsilon:JobCandidates,
+    upsilon:CurrentEmployees%20 .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  terms:description "System log monitoring";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:27199.0 a dpcat:ROPARecord;
+  terms:description "Health and Safety Services";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:27221.0 a dpcat:ROPARecord;
+  terms:description "Treasury Management";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:vendors .
+
+upsilon:27713.0 a dpcat:ROPARecord;
+  terms:description "EDI orders via Celtrino";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:27715.0 a dpcat:ROPARecord;
+  terms:description "SAP Orders";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:27716.0 a dpcat:ROPARecord;
+  terms:description "BCT Orders";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:description "General Project Management";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  terms:description "Central Recruitment for Internal roles";
+  dpv:hasDataSubject upsilon:JobCandidates .
+
+upsilon:29311.0 a dpcat:ROPARecord;
+  terms:description "Financial Reporting";
+  dpv:hasDataSubject upsilon:Customers, upsilon:FormerEmployees, upsilon:CurrentEmployees%20 .
+
+upsilon:29322.0 a dpcat:ROPARecord;
+  terms:description "Financial Reporting";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:FormerEmployees, upsilon:vendors .
+
+upsilon:29330.0 a dpcat:ROPARecord;
+  terms:description "Tax Reporting";
+  dpv:hasDataSubject upsilon:FormerEmployees, upsilon:Customers, upsilon:CurrentEmployees%20 .
+
+upsilon:29820.0 a dpcat:ROPARecord;
+  terms:description "Implementation of SSO";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:29872.0 a dpcat:ROPARecord;
+  terms:description "Online Back up of Microsoft windows and oracle environment";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:Customers, upsilon:JobCandidates,
+    upsilon:FormerEmployees .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  terms:description "Cloud back-ups of Warehouse and SAP systems";
+  dpv:hasDataSubject upsilon:FormerEmployees, upsilon:Customers, upsilon:CurrentEmployees%20 .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  terms:description "Gather Proof of Delivery";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  terms:description "Staff recruitment Equal Opportunities Monitoring";
+  dpv:hasDataSubject upsilon:JobCandidates .
+
+upsilon:30920.0 a dpcat:ROPARecord;
+  terms:description "Privilege Access Management";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  terms:description "Pension administration";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:31173.0 a dpcat:ROPARecord;
+  terms:description "Private health Payment processing";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:32400.0 a dpcat:ROPARecord;
+  terms:description "Delivery of Customer Orders";
+  dpv:hasDataSubject upsilon:Customers .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  terms:description "Health assessment - fitness to work";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:32413.0 a dpcat:ROPARecord;
+  terms:description "Conduct Financial Audit";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:Customers .
+
+upsilon:32697.0 a dpcat:ROPARecord;
+  terms:description "Monitor employee time and attendance";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:32767.0 a dpcat:ROPARecord;
+  terms:description "Secure File Share service";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20, upsilon:JobCandidates, upsilon:Customers .
+
+upsilon:32769.0 a dpcat:ROPARecord;
+  terms:description "Managed Detection and Response";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:description "Operate Newsletter for Corporate Investors";
+  dpv:hasDataSubject upsilon:WebsiteB2Bvisitors .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  terms:description "Password Management services";
+  dpv:hasDataSubject upsilon:CurrentEmployees%20 .

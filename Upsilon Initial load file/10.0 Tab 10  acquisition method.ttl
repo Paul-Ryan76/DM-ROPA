@@ -1,0 +1,355 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24933.0 a dpcat:ROPARecord;
+  terms:description "Uniphar PLC (Controller) ROPA";
+  dpv:hasDataSource upsilon:InPerson .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Offer)";
+  dpv:hasDataSource upsilon:Email, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25001.0 a dpcat:ROPARecord;
+  terms:description "Payables processing";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25003.0 a dpcat:ROPARecord;
+  terms:description "Physical Security for Uniphar PLC";
+  dpv:hasDataSource upsilon:CCTV;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25007.0 a dpcat:ROPARecord;
+  terms:description "Quality Compliance";
+  dpv:hasDataSource upsilon:OnlineForm .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  terms:description "Staff Training";
+  dpv:hasDataSource upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25053.0 a dpcat:ROPARecord;
+  terms:description "Staff Training -record keeping";
+  dpv:hasDataSource upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25055.0 a dpcat:ROPARecord;
+  terms:description "Pharma co-vigilance record keeping";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm, upsilon:Phone;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:description "Provision of staff training";
+  dpv:hasDataSource upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:description "Call Recording";
+  dpv:hasDataSource upsilon:Phone;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  terms:description "Operation of CRM System";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25074.0 a dpcat:ROPARecord;
+  terms:description "New Supplier Onboarding";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25075.0 a dpcat:ROPARecord;
+  terms:description "Quality Investigations";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25078.0 a dpcat:ROPARecord;
+  terms:description "Complaint Handling";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm, upsilon:PaperForm, upsilon:Phone;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25080.0 a dpcat:ROPARecord;
+  terms:description "Master Data Management";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  terms:description "Accident reporting and investigation";
+  dpv:hasDataSource upsilon:CCTV, upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Yes", "Not sure" .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  terms:description "Helpdesk Management";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25107.0 a dpcat:ROPARecord;
+  terms:description "Disciplinary Process";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25108.0 a dpcat:ROPARecord;
+  terms:description "Redundancy Process";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  terms:description "Fleet Management for drivers of company provided vehicles";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  terms:description "Illness and Absence Management";
+  dpv:hasDataSource upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25111.0 a dpcat:ROPARecord;
+  terms:description "Bullying investigations";
+  dpv:hasDataSource upsilon:CCTV, upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Yes", "Not sure" .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:description "Learning and Development";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  terms:description "Compensation and Benefits Admin";
+  dpv:hasDataSource upsilon:HRSystem;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  terms:description "Performance Management";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  terms:description "Staff Recruitment ( Internal Roles)";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25125.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening (references)";
+  dpv:hasDataSource upsilon:Phone;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25126.0 a dpcat:ROPARecord;
+  terms:description "Pre Employment Screening ( Health Check)";
+  dpv:hasDataSource upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:description "Desk Booking and meeting room booking Service";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  terms:description "Distribution / Patient Service Management";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  terms:description "Mobile Device provision and support";
+  dpv:hasDataSource upsilon:InPerson;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  terms:description "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  terms:description "company 2";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:description "Organisation of business travel";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:25612.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website B2C";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  terms:description "Manufacturing services (Qualified Person)";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  terms:description "BCT Support";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Induction)";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:description "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasDataSource upsilon:Email, upsilon:Phone;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:26203.0 a dpcat:ROPARecord;
+  terms:description "Operate B2B Website - Uniphar Wholesale";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:26204.0 a dpcat:ROPARecord;
+  terms:description "Operate B2C Website AYA ( not yet active)";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "No" .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:description "Support Oracle Databases";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  terms:description "Support Microsoft 365 environment";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  terms:description "company 2 (Copy)";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:26436.0 a dpcat:ROPARecord;
+  terms:description "Maintenance of HR records";
+  dpv:hasDataSource upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  terms:description "E-mail security";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  terms:description "online back-ups of Warehouse and SAP systems";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  terms:description "System log monitoring";
+  dpv:hasDataSource upsilon:NetworkLogs;
+  upsilon:hasFarirNoticeProvided "No" .
+
+upsilon:27221.0 a dpcat:ROPARecord;
+  terms:description "Treasury Management";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:27711.0 a dpcat:ROPARecord;
+  terms:description "PIMS Order Processing via Celtrino";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:27712.0 a dpcat:ROPARecord;
+  terms:description "Marketplace Optimum via Celtrino";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:27713.0 a dpcat:ROPARecord;
+  terms:description "EDI orders via Celtrino";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:27715.0 a dpcat:ROPARecord;
+  terms:description "SAP Orders";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:27716.0 a dpcat:ROPARecord;
+  terms:description "BCT Orders";
+  dpv:hasDataSource upsilon:Email, upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:27717.0 a dpcat:ROPARecord;
+  terms:description "Web Orders";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:27718.0 a dpcat:ROPARecord;
+  terms:description "OCR Orders";
+  dpv:hasDataSource upsilon:OnlineForm, upsilon:PaperForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:description "General Project Management";
+  dpv:hasDataSource upsilon:Email;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  terms:description "Central Recruitment for Internal roles";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "No" .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  terms:description "Cloud back-ups of Warehouse and SAP systems";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  terms:description "Gather Proof of Delivery";
+  dpv:hasDataSource upsilon:InPerson;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  terms:description "Staff recruitment Equal Opportunities Monitoring";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  terms:description "Pension administration";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:31173.0 a dpcat:ROPARecord;
+  terms:description "Private health Payment processing";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  terms:description "Health assessment - fitness to work";
+  dpv:hasDataSource upsilon:InPerson;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:32697.0 a dpcat:ROPARecord;
+  terms:description "Monitor employee time and attendance";
+  dpv:hasDataSource upsilon:InPerson;
+  upsilon:hasFarirNoticeProvided "Not sure" .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:description "Operate Newsletter for Corporate Investors";
+  dpv:hasDataSource upsilon:OnlineForm;
+  upsilon:hasFarirNoticeProvided "Yes" .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  terms:description "Password Management services";
+  dpv:hasDataSource upsilon:InPerson;
+  upsilon:hasFarirNoticeProvided "Not sure" .

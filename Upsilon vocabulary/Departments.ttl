@@ -1,0 +1,91 @@
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix dpv-gdpr: <https://w3id.org/dpv/dpv-skos/dpv-gdpr#> .
+@prefix dpv-pd: <https://w3id.org/dpv/dpv-skos/dpv-pd#> .
+@prefix dpv-tech: <https://w3id.org/dpv/dpv-skos/dpv-tech#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <https://www.w3.org/TR/owl-time/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix : <https://w3id.org/dpcat/examples/UPSILON#> .
+
+
+
+
+### UPSILON vocab ###
+### Departments ###
+
+upsilon:Security a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Security Services_Security Unit"@en ;
+    dpv:hasContact "Email: upsilon-selections@upsilon.europa.eu" ;
+    dpv:hasContact "https://upsilon.europa.eu/form/upsilonweb-contact-form_en" ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:HumanResources a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Human Resources Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:Finance a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Finance Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:Facilities a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Facilities Management"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:Quality a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Quality Department "@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:Corporate a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Corporate Services"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:CommercialDept a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Commercial Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:CustomerServiceDept a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Customer Service Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:LegalDept a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Legal Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:ITServicesDept a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Information Services Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:CustomerServiceDept a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Customer Service Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:OperationsDept a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Operations Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:HealthAndSafety a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Health and Safety Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:Procurement a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Procurement"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:OperationsDept a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Operations Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+upsilon:MasterData a foaf:Agent, dpv:OrganisationalUnit ;
+    dpv:hasName "Master Data Department"@en ;
+    skos:broaderTransitive upsilon:UpsilonPlc .
+
+

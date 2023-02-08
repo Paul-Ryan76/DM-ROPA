@@ -1,0 +1,104 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24933.0 a dpcat:ROPARecord;
+  terms:description "Uniphar PLC (Controller) ROPA";
+  dpv:hasRisk "You must have a lawful basis for processing special categories of data. The DP Lead has not selected a basis for processing Any direct or indirect reference to a living individual which identifies that person.",
+    "In-person is used to collect data, but Fair Notice has not been provided or the DP Lead is not sure if Fair Notice has been provided.";
+  dpv:hasIdentifier "RoPA/20220415/1", "RoPA/20220415/2";
+  dpv:hasImpact "1.0";
+  dpv:hasLikelihood "1.0";
+  dpv:hasStatus "Raised" .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Offer)";
+  dpv:hasRisk "****HR consultant default ****, Dublin, Ireland is a 3rd party involved in the Onboarding new employees (Offer) processing activity, but there doesn’t appear to be a Data Sharing Agreement in place.",
+    "Paper Form is used to collect data, but Fair Notice has not been provided or the DP Lead is not sure if Fair Notice has been provided.",
+    "Email is used to collect data, but Fair Notice has not been provided or the DP Lead is not sure if Fair Notice has been provided.";
+  dpv:hasIdentifier "RoPA/20220517/1", "RoPA/20220517/2", "RoPA/20220517/3";
+  dpv:hasImpact "3.0";
+  dpv:hasLikelihood "4.0", "5.0";
+  dpv:hasStatus "Raised" .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:description "Provision of staff training";
+  dpv:hasRisk "Personal data is not encrypted or the DP Lead is not sure if it is encrypted. Encryption may be required here",
+    "We are unable to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.",
+    "We are unable to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services for this processing activity.",
+    "We don’t have a process in place for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing.",
+    "Olive Safety, Dublin, Ireland is a 3rd party involved in the Provision of staff training processing activity, but there doesn’t appear to be a Data Processor Agreement in place.";
+  dpv:hasIdentifier "RoPA/20220517/4", "RoPA/20220517/5", "RoPA/20220517/6", "RoPA/20220517/7",
+    "RoPA/20220613/1";
+  dpv:hasImpact "1.0", "4.0", "3.0";
+  dpv:hasLikelihood "1.0", "2.0";
+  dpv:hasStatus "Raised", "Resolved" .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:description "Call Recording";
+  dpv:hasRisk "Consent is required to collect Any direct or indirect reference to a living individual which identifies that person, but consent has not been recorded or DP Lead is not sure if consent has been recorded",
+    "Presidio, Dublin, Ireland is a 3rd party involved in the Call Recording processing activity, but there doesn’t appear to be a Data Processor Agreement in place.",
+    "Phone is used to collect data, but Fair Notice has not been provided or the DP Lead is not sure if Fair Notice has been provided.";
+  dpv:hasIdentifier "RoPA/20220503/1", "RoPA/20220622/1", "RoPA/20220622/2";
+  dpv:hasImpact "3.0";
+  dpv:hasLikelihood "5.0";
+  dpv:hasStatus "Raised" .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  terms:description "Operation of CRM System";
+  dpv:hasRisk "ERPAPPS, Dublin, Ireland is a 3rd party involved in the Operation of CRM System processing activity, but there doesn’t appear to be a Data Processor Agreement in place.";
+  dpv:hasIdentifier "RoPA/20220622/3";
+  dpv:hasImpact "2.0";
+  dpv:hasLikelihood "5.0";
+  dpv:hasStatus "Raised" .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:description "Desk Booking and meeting room booking Service";
+  dpv:hasRisk "\"Legitimate Interests\" was selected as a lawful basis for collecting personal data (\"Any direct or indirect reference to a living individual which identifies that person\"), but a Legitimate Interest Assessment hasn't been completed",
+    "Robin Powered Inc., Boston, United States is a 3rd party involved in the Desk Booking and meeting room booking Service processing activity, but there doesn’t appear to be a Data Processor Agreement in place.";
+  dpv:hasIdentifier "RoPA/20220425/1", "RoPA/20220425/2";
+  dpv:hasImpact "2.0", "1.0";
+  dpv:hasLikelihood "3.0", "1.0";
+  dpv:hasStatus "Raised", "Resolved" .
+
+upsilon:25983.0 a dpcat:ROPARecord;
+  terms:description "Vulnerability Testing";
+  dpv:hasRisk "Ward Solutions, Dublin, Ireland is a 3rd party involved in the Vulnerability Testing processing activity, but there doesn’t appear to be a Data Processor Agreement in place.",
+    "Qualys, California, United States is a 3rd party involved in the Vulnerability Testing processing activity, but there doesn’t appear to be a Data Processor Agreement in place.",
+    "We are unable to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services for this processing activity.",
+    "We are unable to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.",
+    "We don’t have a process in place for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing.";
+  dpv:hasIdentifier "RoPA/20220520/1", "RoPA/20220520/2", "RoPA/20220718/2", "RoPA/20220718/3",
+    "RoPA/20220718/4";
+  dpv:hasImpact "3.0";
+  dpv:hasLikelihood "3.0";
+  dpv:hasStatus "Raised" .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:description "Support Oracle Databases";
+  dpv:hasRisk "IBM IRELAND LTD, Dublin, Ireland is a 3rd party involved in the Support Oracle Databases processing activity, but there doesn’t appear to be a Data Processor Agreement in place.",
+    """<p>Conduct LIA in Uniphar PLC for sharing  Uniphar Business email/ Contacts with third party   for service provision </p>
+<p>\"Legitimate Interests\" was selected as a lawful basis for collecting personal data (\"Any direct or indirect reference to a living individual which identifies that person\"), but a Legitimate Interest Assessment hasn't been completed</p>""";
+  dpv:hasIdentifier "RoPA/20220601/1", "RoPA/20220601/2";
+  dpv:hasImpact "1.0", "3.0";
+  dpv:hasLikelihood "1.0", "3.0";
+  dpv:hasStatus "Resolved", "Raised" .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  terms:description "System log monitoring";
+  dpv:hasRisk "\"Legitimate Interests\" was selected as a lawful basis for collecting personal data (\"Any direct or indirect reference to a living individual which identifies that person\"), but a Legitimate Interest Assessment hasn't been completed",
+    "Network Logs is used to collect data, but Fair Notice has not been provided or the DP Lead is not sure if Fair Notice has been provided.",
+    "Barracuda, Reading, United Kingdom is a 3rd party involved in the System log monitoring processing activity, but there doesn’t appear to be a Data Processor Agreement in place.";
+  dpv:hasIdentifier "RoPA/20220704/1", "RoPA/20220704/2", "RoPA/20220704/3";
+  dpv:hasImpact "1.0", "3.0";
+  dpv:hasLikelihood "1.0", "3.0";
+  dpv:hasStatus "Raised" .

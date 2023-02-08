@@ -1,0 +1,58 @@
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix dpv-gdpr: <https://w3id.org/dpv/dpv-skos/dpv-gdpr#> .
+@prefix dpv-pd: <https://w3id.org/dpv/dpv-skos/dpv-pd#> .
+@prefix dpv-tech: <https://w3id.org/dpv/dpv-skos/dpv-tech#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <https://www.w3.org/TR/owl-time/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix : <https://w3id.org/dpcat/examples/UPSILON#> .
+
+
+
+
+### UPSILON vocab ###
+### Entities vocab ###
+
+
+upsilon:UpsilonPlc a foaf:Agent, dpv:LegalEntity ;
+    dpv:hasName "Upsilon Plc"@en ;
+    dpv:hasContact "Postal address: 1234 CedarWood Road, Dublin, D27 Q05K." ;
+    dpv:hasContact "Office address: 1234 CedarWood Road, Dublin, D27 Q05K." ;
+    dpv:hasContact "Telephone: +353 1 4125654" ;
+    dpv:hasContact "Email: info@upsilon.ie" ;
+    dpv:hasContact "Website: https://upsilon.ie" .
+
+upsilon:GraniteDigital  a foaf:Agent, dpv:LegalEntity ;
+    dpv:hasName "Granite Digital"@en ;
+    dpv:hasContact "Cork." ;
+    dpv:hasContact "Ireland." .
+
+upsilon:911SecuritySystems  a foaf:Agent, dpv:LegalEntity ;
+    dpv:hasName "911 Security Systems"@en ;
+    dpv:hasContact "Dublin." ;
+    dpv:hasContact "Ireland." .
+
+upsilon:RochePharmaceuticalsLtd   a foaf:Agent, dpv:LegalEntity ;
+    dpv:hasName "Roche Pharmaceuticals Ltd"@en ;
+    dpv:hasContact "Dublin." ;
+    dpv:hasContact "Ireland." .
+
+upsilon:Space48  a foaf:Agent, dpv:LegalEntity ;
+    dpv:hasName "Space 48"@en ;
+    dpv:hasContact "Dublin." ;
+    dpv:hasContact "Ireland." .
+
+upsilon:Jungheinrich a foaf:Agent, dpv:LegalEntity ;
+    dpv:hasName "Jungheinrich"@en ;
+    dpv:hasContact "Dublin." ;
+    dpv:hasContact "Ireland." .
+

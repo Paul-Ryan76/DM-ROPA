@@ -1,0 +1,90 @@
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix dpv-gdpr: <https://w3id.org/dpv/dpv-skos/dpv-gdpr#> .
+@prefix dpv-pd: <https://w3id.org/dpv/dpv-skos/dpv-pd#> .
+@prefix dpv-tech: <https://w3id.org/dpv/dpv-skos/dpv-tech#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <https://www.w3.org/TR/owl-time/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix : <https://w3id.org/dpcat/examples/UPSILON#> .
+
+
+### UPSILON vocab ###
+
+
+# Data Subjects
+
+upsilon:JobApplicants a skos:DataSubject ;
+    skos:prefLabel "Job Applicants at UPSILON"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:Visitors a skos:DataSubject ;
+    skos:prefLabel "Visitors to facilities"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:CurrentEmployees a skos:DataSubject ;
+    skos:prefLabel "Current Employees"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:ExEmployees a skos:DataSubject ;
+    skos:prefLabel "Ex-Employees"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:JobCandidates a skos:DataSubject ;
+    skos:prefLabel "Job Candidates"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:Suppliers a skos:DataSubject ;
+    skos:prefLabel "Suppliers"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:WebsiteVisitors a skos:DataSubject ;
+    skos:prefLabel "Website Visitors"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:Customers a skos:DataSubject ;
+    skos:prefLabel "Customers"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:Patients a skos:DataSubject ;
+    skos:prefLabel "Patients"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:Vendors a skos:DataSubject ;
+    skos:prefLabel "Vendors"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:FormerEmployees a skos:DataSubject ;
+    skos:prefLabel "Former Employees"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:WebsiteB2Bvisitors a skos:DataSubject ;
+    skos:prefLabel "Website B2B visitors"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:Other a skos:DataSubject ;
+    skos:prefLabel "Other (pleasespecify)"@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:WebsiteB2CCustomers a skos:DataSubject ;
+    skos:prefLabel "Website B2C Customers "@en ;
+    skos:broaderTransitive dpv:DataSubject .
+
+upsilon:EmployeesofMandAtargetcompany  a skos:DataSubject ;
+    skos:prefLabel "Employees of M&A targetcompany"@en ; 
+	skos:broaderTransitive dpv:DataSubject .
+
+
+
+
+
+
+
+

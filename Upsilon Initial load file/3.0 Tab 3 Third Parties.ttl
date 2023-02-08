@@ -1,0 +1,540 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:25008.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operation of Website (refer to corporate activities)";
+  dpv:hasRecipient upsilon:Granite%20Digital;
+  <http://example.com/base/dpv%3BhasLocation> "Cork";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  terms:hasDescription "Physical Security of Sites";
+  dpv:hasRecipient upsilon:911%20Security%20Systems;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25011.0 a dpcat:ROPARecord;
+  terms:hasDescription "Distribution Client Management";
+  dpv:hasRecipient upsilon:Roche%20Pharmaceuticals%20Ltd;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25014.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operation of Website";
+  dpv:hasRecipient upsilon:Space%2048;
+  <http://example.com/base/dpv%3BhasLocation> "Manchester";
+  dpv:hasLocation upsilon:United%20Kingdom .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  terms:hasDescription "Staff Training";
+  dpv:hasRecipient upsilon:jungheinrich;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25055.0 a dpcat:ROPARecord;
+  terms:hasDescription "Pharma co-vigilance record keeping";
+  dpv:hasRecipient upsilon:Adobe%20Systems%20Software%20Ireland%20Limited;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:hasDescription "Provision of staff training";
+  dpv:hasRecipient upsilon:Ideagen-Gael%20Ltd, upsilon:jungheinrich, upsilon:Olive%20Safety,
+    upsilon:WorkDay;
+  <http://example.com/base/dpv%3BhasLocation> "East Kilbride", "Dublin";
+  dpv:hasLocation upsilon:United%20Kingdom, upsilon:Ireland .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:hasDescription "Call Recording";
+  dpv:hasRecipient upsilon:Presidio;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operation of CRM System";
+  dpv:hasRecipient upsilon:ERPAPPS;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  terms:hasDescription "Employee Expense Processing";
+  dpv:hasRecipient upsilon:SAP;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  terms:hasDescription "Payroll Processing";
+  dpv:hasRecipient upsilon:Intelligo;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  terms:hasDescription "Employee Expense Processing";
+  dpv:hasRecipient upsilon:SAP;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25080.0 a dpcat:ROPARecord;
+  terms:hasDescription "Master Data Management";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#Jitterbit%20Inc.>,
+    upsilon:Semarchy%20LTD, upsilon:Winshuttle%20UK%20Ltd;
+  <http://example.com/base/dpv%3BhasLocation> "Alameda", "Maidenhead", "London";
+  dpv:hasLocation upsilon:United%20States, upsilon:United%20Kingdom .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  terms:hasDescription "Accident reporting and investigation";
+  dpv:hasRecipient upsilon:Aon%20Risk%20Solutions, upsilon:Chubb%20Ireland%20Group;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  terms:hasDescription "Helpdesk Management";
+  dpv:hasRecipient upsilon:ERPAPPS;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  terms:hasDescription "Fleet Management for drivers of company provided vehicles";
+  dpv:hasRecipient upsilon:ALD%20Automotive%20Ireland;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:hasDescription "Learning and Development";
+  dpv:hasRecipient upsilon:Ideagen-Gael%20Ltd, upsilon:WorkDay;
+  <http://example.com/base/dpv%3BhasLocation> "East Kilbride", "Dublin";
+  dpv:hasLocation upsilon:United%20Kingdom, upsilon:Ireland .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  terms:hasDescription "Compensation and Benefits Admin";
+  dpv:hasRecipient upsilon:WorkDay;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  terms:hasDescription "Performance Management";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#Cognito%20HRM%20Ltd%20T/A%20Work%20Compass>,
+    upsilon:DEpt.%20of%20Social%20Welfare, upsilon:Martin%20Farrelly, upsilon:Revenue%20Commissioners,
+    upsilon:SIPTU%20Trade%20Union, upsilon:WRC;
+  <http://example.com/base/dpv%3BhasLocation> "Cork", "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  terms:hasDescription "Staff Recruitment ( Internal Roles)";
+  dpv:hasRecipient upsilon:WorkDay;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25127.0 a dpcat:ROPARecord;
+  terms:hasDescription "Data Protection Compliance";
+  dpv:hasRecipient upsilon:Docusign%2C%20Inc, upsilon:Fort%20Privacy, upsilon:Privacy%20Engine;
+  <http://example.com/base/dpv%3BhasLocation> "California", "Cork", "Dublin";
+  dpv:hasLocation upsilon:United%20States, upsilon:Ireland .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:hasDescription "Desk Booking and meeting room booking Service";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#Robin%20Powered%20Inc.>;
+  <http://example.com/base/dpv%3BhasLocation> "Boston";
+  dpv:hasLocation upsilon:United%20States .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  terms:hasDescription "Distribution / Patient Service Management";
+  dpv:hasRecipient upsilon:Uniphar%20PLC%20IT, upsilon:Uniphar%20Quality, upsilon:Uniphar%20Wholesale;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  terms:hasDescription "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:hasRecipient upsilon:Uniphar%20PLC%20IT, upsilon:Uniphar%20Quality, upsilon:Uniphar%20Wholesale;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  terms:hasDescription "company 2";
+  dpv:hasRecipient upsilon:Uniphar%20PLC%20IT, upsilon:Uniphar%20Quality, upsilon:Uniphar%20Wholesale;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25272.0 a dpcat:ROPARecord;
+  terms:hasDescription "Legal Counsel support";
+  dpv:hasRecipient upsilon:McCann%20Fitzgerald%20Solicitors, upsilon:Osborne%20Clarke%20LLP,
+    upsilon:William%20Fry%20Solicitors;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin", "Bristol";
+  dpv:hasLocation upsilon:Ireland, upsilon:United%20Kingdom .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:hasDescription "Organisation of business travel";
+  dpv:hasRecipient upsilon:Mawasem%20Limited%20trading%20as%20Clarity;
+  <http://example.com/base/dpv%3BhasLocation> "Manchester";
+  dpv:hasLocation upsilon:United%20Kingdom .
+
+upsilon:25506.0 a dpcat:ROPARecord;
+  terms:hasDescription "Whistleblowing service for employees";
+  dpv:hasRecipient upsilon:Navex%20Global;
+  <http://example.com/base/dpv%3BhasLocation> "Oregon";
+  dpv:hasLocation upsilon:United%20States .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  terms:hasDescription "Manufacturing services (Qualified Person)";
+  dpv:hasRecipient upsilon:EMRC;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  terms:hasDescription "BCT Support";
+  dpv:hasRecipient upsilon:ERPAPPS;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  terms:hasDescription "Onboarding new employees (Induction)";
+  dpv:hasRecipient upsilon:Intelligo, upsilon:Uniphar%20Wholesale, upsilon:WorkDay;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:hasDescription "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasRecipient upsilon:Version%201;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:25983.0 a dpcat:ROPARecord;
+  terms:hasDescription "Vulnerability Testing";
+  dpv:hasRecipient upsilon:Kontex, upsilon:Qualys, upsilon:Ward%20Solutions;
+  <http://example.com/base/dpv%3BhasLocation> "Waterford", "California", "Dublin";
+  dpv:hasLocation upsilon:Ireland, upsilon:United%20States .
+
+upsilon:26203.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operate B2B Website - Uniphar Wholesale";
+  dpv:hasRecipient upsilon:Monsoon%20Software%20Consulting%20%28Irl%29%20L;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26219.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operation of Corporate Website";
+  dpv:hasRecipient upsilon:Granite%20Digital;
+  <http://example.com/base/dpv%3BhasLocation> "Cork";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:hasDescription "Support Oracle Databases";
+  dpv:hasRecipient upsilon:Kyndryl%20IRELAND%20LTD;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26307.0 a dpcat:ROPARecord;
+  terms:hasDescription "M&A due diligence";
+  dpv:hasRecipient upsilon:Blank%20Rome%20LLP;
+  <http://example.com/base/dpv%3BhasLocation> "PHILADELPHIA";
+  dpv:hasLocation upsilon:United%20States .
+
+upsilon:26378.0 a dpcat:ROPARecord;
+  terms:hasDescription "Process Automation";
+  dpv:hasRecipient upsilon:UiPath;
+  <http://example.com/base/dpv%3BhasLocation> "Bucharest";
+  dpv:hasLocation upsilon:Romania .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  terms:hasDescription "Support Microsoft 365 environment";
+  dpv:hasRecipient upsilon:ERGO;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  terms:hasDescription "company 2 (Copy)";
+  dpv:hasRecipient upsilon:Uniphar%20PLC%20IT, upsilon:Uniphar%20Quality, upsilon:Uniphar%20Wholesale;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26411.0 a dpcat:ROPARecord;
+  terms:hasDescription "99199_Fresenius Kabi EN_Fresenius Kabi EN_Cestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26412.0 a dpcat:ROPARecord;
+  terms:hasDescription "99158_Fresenius Kabi Limited_Fresenius Kabi Limited_Crestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26415.0 a dpcat:ROPARecord;
+  terms:hasDescription "99284_Fresenius Kabi St Solutions_Fresenius Kabi St Solutions______Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26416.0 a dpcat:ROPARecord;
+  terms:hasDescription "99326_Ascensia Diabetes Care Ireland Ltd_Ascensia Diabetes Care Ireland Ltd__4045 Kingswood Road_Citywest Business Park___Dublin_DB_24_IE";
+  dpv:hasRecipient upsilon:ASCENSIA%20DIABETES%20CARE%20IRELAND%20LIMITED;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26417.0 a dpcat:ROPARecord;
+  terms:hasDescription "99309_CARAGEN LIMITED_CARAGEN LIMITED__1st Floor, Suite 32 The Mall_Beacon Court___Sandyford_DB_D18 AYF3_IE";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#Caragen%20Ltd.>;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26418.0 a dpcat:ROPARecord;
+  terms:hasDescription "99223_FRESENIUS KABI ANCILLARIES_FRESENIUS KABI ANCILLARIES_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26419.0 a dpcat:ROPARecord;
+  terms:hasDescription "99227_FRESENIUS KABI PEDIATRIC_FRESENIUS KABI PEDIATRIC_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  terms:hasDescription "Acquisition due diligence";
+  dpv:hasRecipient upsilon:Oyster%20IMS;
+  <http://example.com/base/dpv%3BhasLocation> "dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  terms:hasDescription "E-mail security";
+  dpv:hasRecipient upsilon:Proofpoint;
+  <http://example.com/base/dpv%3BhasLocation> "Reading";
+  dpv:hasLocation upsilon:United%20Kingdom .
+
+upsilon:26917.0 a dpcat:ROPARecord;
+  terms:hasDescription "S4Hanna Project";
+  dpv:hasRecipient upsilon:Accenture%20PLC, upsilon:Expleo%20Technology%20Ireland%20Limited;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26918.0 a dpcat:ROPARecord;
+  terms:hasDescription "Contract Review Project";
+  dpv:hasRecipient upsilon:Peru%20Consulting;
+  <http://example.com/base/dpv%3BhasLocation> "York";
+  dpv:hasLocation upsilon:United%20Kingdom .
+
+upsilon:26919.0 a dpcat:ROPARecord;
+  terms:hasDescription "Cybersecurity Project Management";
+  dpv:hasRecipient upsilon:Expleo%20Technology%20Ireland%20Limited;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  terms:hasDescription "online back-ups of Warehouse and SAP systems";
+  dpv:hasRecipient upsilon:Kyndryl%20IRELAND%20LTD;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  terms:hasDescription "Cloud Back up of Microsoft windows and oracle environment";
+  dpv:hasRecipient upsilon:ProCloud;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:26924.0 a dpcat:ROPARecord;
+  terms:hasDescription "Support SAP systems";
+  dpv:hasRecipient upsilon:Deloitte%20%26%20Touche;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  terms:hasDescription "System log monitoring";
+  dpv:hasRecipient upsilon:Barracuda;
+  <http://example.com/base/dpv%3BhasLocation> "Reading";
+  dpv:hasLocation upsilon:United%20Kingdom .
+
+upsilon:27200.0 a dpcat:ROPARecord;
+  terms:hasDescription "HR services (outsourced to Uniphar wholesale)";
+  dpv:hasRecipient upsilon:Uniphar%20Wholesale;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:27711.0 a dpcat:ROPARecord;
+  terms:hasDescription "PIMS Order Processing via Celtrino";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#EDI%20Factory%20Ltd%20T/A%20Celtrino>;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:27712.0 a dpcat:ROPARecord;
+  terms:hasDescription "Marketplace Optimum via Celtrino";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#EDI%20Factory%20Ltd%20T/A%20Celtrino>;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:27713.0 a dpcat:ROPARecord;
+  terms:hasDescription "EDI orders via Celtrino";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#EDI%20Factory%20Ltd%20T/A%20Celtrino>;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:27715.0 a dpcat:ROPARecord;
+  terms:hasDescription "SAP Orders";
+  dpv:hasRecipient upsilon:SAP;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:27716.0 a dpcat:ROPARecord;
+  terms:hasDescription "BCT Orders";
+  dpv:hasRecipient upsilon:ERPAPPS;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:27717.0 a dpcat:ROPARecord;
+  terms:hasDescription "Web Orders";
+  dpv:hasRecipient upsilon:Monsoon%20Software%20Consulting%20%28Irl%29%20L;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:27718.0 a dpcat:ROPARecord;
+  terms:hasDescription "OCR Orders";
+  dpv:hasRecipient upsilon:F10%20Limited;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:hasDescription "General Project Management";
+  dpv:hasRecipient upsilon:Wetransfer;
+  <http://example.com/base/dpv%3BhasLocation> "Amsterdam";
+  dpv:hasLocation upsilon:Netherlands .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  terms:hasDescription "Central Recruitment for Internal roles";
+  dpv:hasRecipient upsilon:Bid%20Recruit%20Limited, upsilon:WorkDay;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:29673.0 a dpcat:ROPARecord;
+  terms:hasDescription "Data sensitivity cataloging";
+  dpv:hasRecipient upsilon:Microsoft%20Ireland;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:29789.0 a dpcat:ROPARecord;
+  terms:hasDescription "Network Segmentation";
+  dpv:hasRecipient upsilon:Presidio;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:29790.0 a dpcat:ROPARecord;
+  terms:hasDescription "AIX resiliency";
+  dpv:hasRecipient upsilon:Kyndryl%20IRELAND%20LTD;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:29837.0 a dpcat:ROPARecord;
+  terms:hasDescription "PIMS Order Processing - SAP Interface Channel";
+  dpv:hasRecipient upsilon:Black%20Knight, <https://w3id.org/dpcat/examples/UPSILON/vocab#EDI%20Factory%20Ltd%20T/A%20Celtrino>;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  terms:hasDescription "Cloud back-ups of Warehouse and SAP systems";
+  dpv:hasRecipient upsilon:Kyndryl%20IRELAND%20LTD;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  terms:hasDescription "Gather Proof of Delivery";
+  dpv:hasRecipient upsilon:Alltrans%20Ltd;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  terms:hasDescription "Staff recruitment Equal Opportunities Monitoring";
+  dpv:hasRecipient upsilon:WorkDay;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:30725.0 a dpcat:ROPARecord;
+  terms:hasDescription "Workday Project";
+  dpv:hasRecipient upsilon:Damien%20Kavanagh%20Project%20Management;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:30920.0 a dpcat:ROPARecord;
+  terms:hasDescription "Privilege Access Management";
+  dpv:hasRecipient upsilon:Remediant;
+  <http://example.com/base/dpv%3BhasLocation> "California";
+  dpv:hasLocation upsilon:United%20States .
+
+upsilon:30923.0 a dpcat:ROPARecord;
+  terms:hasDescription "End Point Protection and detection - Anti-Malware";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#CROWDSTRIKE%2C%20INC.>;
+  <http://example.com/base/dpv%3BhasLocation> "California";
+  dpv:hasLocation upsilon:United%20States .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  terms:hasDescription "Pension administration";
+  dpv:hasRecipient upsilon:Invesco%20Ltd;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:31173.0 a dpcat:ROPARecord;
+  terms:hasDescription "Private health Payment processing";
+  dpv:hasRecipient upsilon:VHI%20Corporate%20Solutions;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:32400.0 a dpcat:ROPARecord;
+  terms:hasDescription "Delivery of Customer Orders";
+  dpv:hasRecipient upsilon:Alltrans%20Ltd, upsilon:Finbarr%20Daly, upsilon:Gary%20Ryan%20Transport,
+    upsilon:Gerard%20O%27Reilly, <https://w3id.org/dpcat/examples/UPSILON/vocab#John%20Brady%20T/a%20Ramor%20Couriers%20%2C>,
+    upsilon:John%20Brennan, upsilon:Kevin%20Langan%20Courier%20Ltd, upsilon:Kuehne%20and%20Nagel%20%28Ireland%29%20Ltd,
+    upsilon:KWL%20Transport, upsilon:Michael%20Moore%20Distribution, upsilon:Mike%20Walsh,
+    upsilon:Mr%20John%20Roche, upsilon:Munster%20Pharma%20Distribution%20Ltd, upsilon:Paul%20Carrick%20Courier,
+    upsilon:Pharmtrans%20Direct%20Ltd, upsilon:Swift%20Taxi, upsilon:Tim%20Hanley;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin", "Limerick", "Clare", "Ballyjamesduff",
+    "Laois", "Sligo", "Tinahely";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  terms:hasDescription "Health assessment - fitness to work";
+  dpv:hasRecipient upsilon:Medmark%20Ltd;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:32413.0 a dpcat:ROPARecord;
+  terms:hasDescription "Conduct Financial Audit";
+  dpv:hasRecipient upsilon:KPMG, upsilon:Pricewaterhouse%20Coopers;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:32414.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operate Cycle to Work Scheme";
+  dpv:hasRecipient upsilon:Tax%20Free%20Bicycles;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin";
+  dpv:hasLocation upsilon:Ireland .
+
+upsilon:32629.0 a dpcat:ROPARecord;
+  terms:hasDescription "Cloud Architecture Migration Design";
+  dpv:hasRecipient upsilon:Axiologix%20Technologies, upsilon:Brutus%20Technology%20systems%20limited,
+    upsilon:Serena%20Razoa%20Unipessoal%20Lda;
+  <http://example.com/base/dpv%3BhasLocation> "Dublin", "Meath", "bairradinha";
+  dpv:hasLocation upsilon:Ireland, upsilon:Portugal .
+
+upsilon:32767.0 a dpcat:ROPARecord;
+  terms:hasDescription "Secure File Share service";
+  dpv:hasRecipient upsilon:Proofpoint;
+  <http://example.com/base/dpv%3BhasLocation> "Reading";
+  dpv:hasLocation upsilon:United%20Kingdom .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:hasDescription "Operate Newsletter for Corporate Investors";
+  dpv:hasRecipient upsilon:Euroland;
+  <http://example.com/base/dpv%3BhasLocation> "London";
+  dpv:hasLocation upsilon:United%20Kingdom .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  terms:hasDescription "Password Management services";
+  dpv:hasRecipient upsilon:Keeper%20Security%2C%20Inc;
+  <http://example.com/base/dpv%3BhasLocation> "Cork";
+  dpv:hasLocation upsilon:Ireland .

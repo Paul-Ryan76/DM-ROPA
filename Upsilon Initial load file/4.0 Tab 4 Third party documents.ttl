@@ -1,0 +1,408 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:26412.0 a dpcat:ROPARecord;
+  terms:description "99158_Fresenius Kabi Limited_Fresenius Kabi Limited_Crestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi .
+
+upsilon:26411.0 a dpcat:ROPARecord;
+  terms:description "99199_Fresenius Kabi EN_Fresenius Kabi EN_Cestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  upsilon:hasDocumentation "Fresenius DPA signed by Allphar" .
+
+upsilon:26418.0 a dpcat:ROPARecord;
+  terms:description "99223_FRESENIUS KABI ANCILLARIES_FRESENIUS KABI ANCILLARIES_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  upsilon:hasDocumentation "Fresenius DPA signed by Allphar" .
+
+upsilon:26419.0 a dpcat:ROPARecord;
+  terms:description "99227_FRESENIUS KABI PEDIATRIC_FRESENIUS KABI PEDIATRIC_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  upsilon:hasDocumentation "Fresenius DPA signed by Allphar" .
+
+upsilon:26415.0 a dpcat:ROPARecord;
+  terms:description "99284_Fresenius Kabi St Solutions_Fresenius Kabi St Solutions______Runcorn_CH_WA7 1NT_GB";
+  dpv:hasRecipient upsilon:Fresenius%20Kabi;
+  upsilon:hasDocumentation "Fresenius DPA signed by Allphar" .
+
+upsilon:26417.0 a dpcat:ROPARecord;
+  terms:description "99309_CARAGEN LIMITED_CARAGEN LIMITED__1st Floor, Suite 32 The Mall_Beacon Court___Sandyford_DB_D18 AYF3_IE";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#Caragen%20Ltd.>;
+  upsilon:hasDocumentation "Caragen DPA" .
+
+upsilon:26416.0 a dpcat:ROPARecord;
+  terms:description "99326_Ascensia Diabetes Care Ireland Ltd_Ascensia Diabetes Care Ireland Ltd__4045 Kingswood Road_Citywest Business Park___Dublin_DB_24_IE";
+  dpv:hasRecipient upsilon:ASCENSIA%20DIABETES%20CARE%20IRELAND%20LIMITED;
+  upsilon:hasDocumentation "ASCENSIA DIABETES CARE IRELAND LIMITED DISTRIBUTORSHIP AGREEMENT" .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  terms:description "Accident reporting and investigation";
+  dpv:hasRecipient upsilon:Aon%20Risk%20Solutions, upsilon:Chubb%20Ireland%20Group .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  terms:description "Acquisition due diligence";
+  dpv:hasRecipient upsilon:Oyster%20IMS;
+  upsilon:hasDocumentation "Oyster IMS MSA" .
+
+upsilon:29790.0 a dpcat:ROPARecord;
+  terms:description "AIX resiliency";
+  dpv:hasRecipient upsilon:Kyndryl%20IRELAND%20LTD;
+  upsilon:hasDocumentation "Kyndryl DPA" .
+
+upsilon:27716.0 a dpcat:ROPARecord;
+  terms:description "BCT Orders";
+  dpv:hasRecipient upsilon:ERPAPPS;
+  upsilon:hasDocumentation "ERPAPPs Contract, ERPapps SLA" .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  terms:description "BCT Support";
+  dpv:hasRecipient upsilon:ERPAPPS;
+  upsilon:hasDocumentation "ERPAPPs Contract" .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  terms:description "Call Recording";
+  dpv:hasRecipient upsilon:Presidio .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  terms:description "Central Recruitment for Internal roles";
+  dpv:hasRecipient upsilon:Bid%20Recruit%20Limited, upsilon:WorkDay;
+  upsilon:hasDocumentation "Bid Recruit t/ Occupop DPA", "WorkDay Data Processing Agreement/ MSA / TOMs" .
+
+upsilon:32629.0 a dpcat:ROPARecord;
+  terms:description "Cloud Architecture Migration Design";
+  dpv:hasRecipient upsilon:Axiologix%20Technologies, upsilon:Brutus%20Technology%20systems%20limited,
+    upsilon:Serena%20Razoa%20Unipessoal%20Lda .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  terms:description "Cloud Back up of Microsoft windows and oracle environment";
+  dpv:hasRecipient upsilon:ProCloud .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  terms:description "Cloud back-ups of Warehouse and SAP systems";
+  dpv:hasRecipient upsilon:Kyndryl%20IRELAND%20LTD;
+  upsilon:hasDocumentation "Kyndryl DPA" .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  terms:description "company 2";
+  dpv:hasRecipient upsilon:Uniphar%20PLC%20IT, upsilon:Uniphar%20Quality, upsilon:Uniphar%20Wholesale;
+  upsilon:hasDocumentation "Intra Group Data Processing Agreement" .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  terms:description "company 2 (Copy)";
+  dpv:hasRecipient upsilon:Uniphar%20PLC%20IT, upsilon:Uniphar%20Quality, upsilon:Uniphar%20Wholesale;
+  upsilon:hasDocumentation "Intra Group Data Processing Agreement" .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  terms:description "Compensation and Benefits Admin";
+  dpv:hasRecipient upsilon:WorkDay;
+  upsilon:hasDocumentation "WorkDay Data Processing Agreement/ MSA / TOMs" .
+
+upsilon:32413.0 a dpcat:ROPARecord;
+  terms:description "Conduct Financial Audit";
+  dpv:hasRecipient upsilon:KPMG, upsilon:Pricewaterhouse%20Coopers .
+
+upsilon:26918.0 a dpcat:ROPARecord;
+  terms:description "Contract Review Project";
+  dpv:hasRecipient upsilon:Peru%20Consulting;
+  upsilon:hasDocumentation "Peru Consulting GDPR statement, Peru Consulting Contract, Peru NDA" .
+
+upsilon:26919.0 a dpcat:ROPARecord;
+  terms:description "Cybersecurity Project Management";
+  dpv:hasRecipient upsilon:Expleo%20Technology%20Ireland%20Limited;
+  upsilon:hasDocumentation "Expleo NDA" .
+
+upsilon:25127.0 a dpcat:ROPARecord;
+  terms:description "Data Protection Compliance";
+  dpv:hasRecipient upsilon:Docusign%2C%20Inc, upsilon:Fort%20Privacy, upsilon:Privacy%20Engine;
+  upsilon:hasDocumentation "Privacy Engine Terms and conditions and DPA" .
+
+upsilon:29673.0 a dpcat:ROPARecord;
+  terms:description "Data sensitivity cataloging";
+  dpv:hasRecipient upsilon:Microsoft%20Ireland .
+
+upsilon:32400.0 a dpcat:ROPARecord;
+  terms:description "Delivery of Customer Orders";
+  dpv:hasRecipient upsilon:Alltrans%20Ltd, upsilon:Finbarr%20Daly, upsilon:Gary%20Ryan%20Transport,
+    upsilon:Gerard%20O%27Reilly, <https://w3id.org/dpcat/examples/UPSILON/vocab#John%20Brady%20T/a%20Ramor%20Couriers%20%2C>,
+    upsilon:John%20Brennan, upsilon:Kevin%20Langan%20Courier%20Ltd, upsilon:Kuehne%20and%20Nagel%20%28Ireland%29%20Ltd,
+    upsilon:KWL%20Transport, upsilon:Michael%20Moore%20Distribution, upsilon:Mike%20Walsh,
+    upsilon:Mr%20John%20Roche, upsilon:Munster%20Pharma%20Distribution%20Ltd, upsilon:Paul%20Carrick%20Courier,
+    upsilon:Pharmtrans%20Direct%20Ltd, upsilon:Swift%20Taxi, upsilon:Tim%20Hanley;
+  upsilon:hasDocumentation "Swift Taxi DPA" .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  terms:description "Desk Booking and meeting room booking Service";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#Robin%20Powered%20Inc.> .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  terms:description "Distribution / Patient Service Management";
+  dpv:hasRecipient upsilon:Uniphar%20PLC%20IT, upsilon:Uniphar%20Quality, upsilon:Uniphar%20Wholesale;
+  upsilon:hasDocumentation "Intra Group Data Processing Agreement" .
+
+upsilon:25011.0 a dpcat:ROPARecord;
+  terms:description "Distribution Client Management";
+  dpv:hasRecipient upsilon:Roche%20Pharmaceuticals%20Ltd .
+
+upsilon:27713.0 a dpcat:ROPARecord;
+  terms:description "EDI orders via Celtrino";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#EDI%20Factory%20Ltd%20T/A%20Celtrino> .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  terms:description "E-mail security";
+  dpv:hasRecipient upsilon:Proofpoint .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasRecipient upsilon:SAP .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  terms:description "Employee Expense Processing";
+  dpv:hasRecipient upsilon:SAP;
+  upsilon:hasDocumentation "SAP DPA" .
+
+upsilon:30923.0 a dpcat:ROPARecord;
+  terms:description "End Point Protection and detection - Anti-Malware";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#CROWDSTRIKE%2C%20INC.> .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  terms:description "Fleet Management for drivers of company provided vehicles";
+  dpv:hasRecipient upsilon:ALD%20Automotive%20Ireland .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  terms:description "Gather Proof of Delivery";
+  dpv:hasRecipient upsilon:Alltrans%20Ltd .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  terms:description "General Project Management";
+  dpv:hasRecipient upsilon:Wetransfer;
+  upsilon:hasDocumentation "Wetransfer Data Processing Agreement" .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  terms:description "Health assessment - fitness to work";
+  dpv:hasRecipient upsilon:Medmark%20Ltd .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  terms:description "Helpdesk Management";
+  dpv:hasRecipient upsilon:ERPAPPS;
+  upsilon:hasDocumentation "ERPAPPs Contract" .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  terms:description "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:hasRecipient upsilon:Uniphar%20PLC%20IT, upsilon:Uniphar%20Quality, upsilon:Uniphar%20Wholesale;
+  upsilon:hasDocumentation "Intra Group Data Processing Agreement" .
+
+upsilon:27200.0 a dpcat:ROPARecord;
+  terms:description "HR services (outsourced to Uniphar wholesale)";
+  dpv:hasRecipient upsilon:Uniphar%20Wholesale;
+  upsilon:hasDocumentation "Intra Group Data Processing Agreement" .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  terms:description "Learning and Development";
+  dpv:hasRecipient upsilon:Ideagen-Gael%20Ltd, upsilon:WorkDay;
+  upsilon:hasDocumentation "WorkDay Data Processing Agreement/ MSA / TOMs" .
+
+upsilon:25272.0 a dpcat:ROPARecord;
+  terms:description "Legal Counsel support";
+  dpv:hasRecipient upsilon:McCann%20Fitzgerald%20Solicitors, upsilon:Osborne%20Clarke%20LLP,
+    upsilon:William%20Fry%20Solicitors .
+
+upsilon:26307.0 a dpcat:ROPARecord;
+  terms:description "M&A due diligence";
+  dpv:hasRecipient upsilon:Blank%20Rome%20LLP .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  terms:description "Manufacturing services (Qualified Person)";
+  dpv:hasRecipient upsilon:EMRC .
+
+upsilon:27712.0 a dpcat:ROPARecord;
+  terms:description "Marketplace Optimum via Celtrino";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#EDI%20Factory%20Ltd%20T/A%20Celtrino> .
+
+upsilon:25080.0 a dpcat:ROPARecord;
+  terms:description "Master Data Management";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#Jitterbit%20Inc.>,
+    upsilon:Semarchy%20LTD, upsilon:Winshuttle%20UK%20Ltd .
+
+upsilon:29789.0 a dpcat:ROPARecord;
+  terms:description "Network Segmentation";
+  dpv:hasRecipient upsilon:Presidio .
+
+upsilon:27718.0 a dpcat:ROPARecord;
+  terms:description "OCR Orders";
+  dpv:hasRecipient upsilon:F10%20Limited;
+  upsilon:hasDocumentation "F10 Service Level Agreement" .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  terms:description "Onboarding new employees (Induction)";
+  dpv:hasRecipient upsilon:Intelligo, upsilon:Uniphar%20Wholesale, upsilon:WorkDay;
+  upsilon:hasDocumentation "WorkDay Data Processing Agreement/ MSA / TOMs" .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  terms:description "online back-ups of Warehouse and SAP systems";
+  dpv:hasRecipient upsilon:Kyndryl%20IRELAND%20LTD;
+  upsilon:hasDocumentation "Kyndryl DPA" .
+
+upsilon:26203.0 a dpcat:ROPARecord;
+  terms:description "Operate B2B Website - Uniphar Wholesale";
+  dpv:hasRecipient upsilon:Monsoon%20Software%20Consulting%20%28Irl%29%20L .
+
+upsilon:32414.0 a dpcat:ROPARecord;
+  terms:description "Operate Cycle to Work Scheme";
+  dpv:hasRecipient upsilon:Tax%20Free%20Bicycles .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  terms:description "Operate Newsletter for Corporate Investors";
+  dpv:hasRecipient upsilon:Euroland .
+
+upsilon:26219.0 a dpcat:ROPARecord;
+  terms:description "Operation of Corporate Website";
+  dpv:hasRecipient upsilon:Granite%20Digital .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  terms:description "Operation of CRM System";
+  dpv:hasRecipient upsilon:ERPAPPS .
+
+upsilon:25014.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website";
+  dpv:hasRecipient upsilon:Space%2048 .
+
+upsilon:25008.0 a dpcat:ROPARecord;
+  terms:description "Operation of Website (refer to corporate activities)";
+  dpv:hasRecipient upsilon:Granite%20Digital .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  terms:description "Organisation of business travel";
+  dpv:hasRecipient upsilon:Mawasem%20Limited%20trading%20as%20Clarity .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  terms:description "Password Management services";
+  dpv:hasRecipient upsilon:Keeper%20Security%2C%20Inc;
+  upsilon:hasDocumentation "Keeper Security Ltd. DPA" .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  terms:description "Payroll Processing";
+  dpv:hasRecipient upsilon:Intelligo .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  terms:description "Pension administration";
+  dpv:hasRecipient upsilon:Invesco%20Ltd .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  terms:description "Performance Management";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#Cognito%20HRM%20Ltd%20T/A%20Work%20Compass>,
+    upsilon:DEpt.%20of%20Social%20Welfare, upsilon:Martin%20Farrelly, upsilon:Revenue%20Commissioners,
+    upsilon:SIPTU%20Trade%20Union, upsilon:WRC .
+
+upsilon:25055.0 a dpcat:ROPARecord;
+  terms:description "Pharma co-vigilance record keeping";
+  dpv:hasRecipient upsilon:Adobe%20Systems%20Software%20Ireland%20Limited;
+  upsilon:hasDocumentation "Adobe Sign DPA" .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  terms:description "Physical Security of Sites";
+  dpv:hasRecipient upsilon:911%20Security%20Systems .
+
+upsilon:29837.0 a dpcat:ROPARecord;
+  terms:description "PIMS Order Processing - SAP Interface Channel";
+  dpv:hasRecipient upsilon:Black%20Knight, <https://w3id.org/dpcat/examples/UPSILON/vocab#EDI%20Factory%20Ltd%20T/A%20Celtrino> .
+
+upsilon:27711.0 a dpcat:ROPARecord;
+  terms:description "PIMS Order Processing via Celtrino";
+  dpv:hasRecipient <https://w3id.org/dpcat/examples/UPSILON/vocab#EDI%20Factory%20Ltd%20T/A%20Celtrino> .
+
+upsilon:31173.0 a dpcat:ROPARecord;
+  terms:description "Private health Payment processing";
+  dpv:hasRecipient upsilon:VHI%20Corporate%20Solutions .
+
+upsilon:30920.0 a dpcat:ROPARecord;
+  terms:description "Privilege Access Management";
+  dpv:hasRecipient upsilon:Remediant .
+
+upsilon:26378.0 a dpcat:ROPARecord;
+  terms:description "Process Automation";
+  dpv:hasRecipient upsilon:UiPath .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  terms:description "Provision of staff training";
+  dpv:hasRecipient upsilon:Ideagen-Gael%20Ltd, upsilon:jungheinrich, upsilon:Olive%20Safety,
+    upsilon:WorkDay;
+  upsilon:hasDocumentation "WorkDay Data Processing Agreement/ MSA / TOMs" .
+
+upsilon:26917.0 a dpcat:ROPARecord;
+  terms:description "S4Hanna Project";
+  dpv:hasRecipient upsilon:Accenture%20PLC, upsilon:Expleo%20Technology%20Ireland%20Limited;
+  upsilon:hasDocumentation "Expleo NDA" .
+
+upsilon:27715.0 a dpcat:ROPARecord;
+  terms:description "SAP Orders";
+  dpv:hasRecipient upsilon:SAP;
+  upsilon:hasDocumentation "SAP DPA, SAP terms and conditions for SAP cloud services" .
+
+upsilon:32767.0 a dpcat:ROPARecord;
+  terms:description "Secure File Share service";
+  dpv:hasRecipient upsilon:Proofpoint;
+  upsilon:hasDocumentation "Proofpoint DPA" .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  terms:description "Staff Recruitment ( Internal Roles)";
+  dpv:hasRecipient upsilon:WorkDay;
+  upsilon:hasDocumentation "WorkDay Data Processing Agreement/ MSA / TOMs" .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  terms:description "Staff recruitment Equal Opportunities Monitoring";
+  dpv:hasRecipient upsilon:WorkDay;
+  upsilon:hasDocumentation "WorkDay Data Processing Agreement/ MSA / TOMs" .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  terms:description "Staff Training";
+  dpv:hasRecipient upsilon:jungheinrich .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  terms:description "Support Microsoft 365 environment";
+  dpv:hasRecipient upsilon:ERGO;
+  upsilon:hasDocumentation "ERGO DPA" .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  terms:description "Support Oracle Databases";
+  dpv:hasRecipient upsilon:Kyndryl%20IRELAND%20LTD .
+
+upsilon:26924.0 a dpcat:ROPARecord;
+  terms:description "Support SAP systems";
+  dpv:hasRecipient upsilon:Deloitte%20%26%20Touche .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  terms:description "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasRecipient upsilon:Version%201;
+  upsilon:hasDocumentation "Version 1 DPA Unsigned" .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  terms:description "System log monitoring";
+  dpv:hasRecipient upsilon:Barracuda .
+
+upsilon:25983.0 a dpcat:ROPARecord;
+  terms:description "Vulnerability Testing";
+  dpv:hasRecipient upsilon:Kontex, upsilon:Qualys, upsilon:Ward%20Solutions;
+  upsilon:hasDocumentation "Kontex MSA unsigned" .
+
+upsilon:27717.0 a dpcat:ROPARecord;
+  terms:description "Web Orders";
+  dpv:hasRecipient upsilon:Monsoon%20Software%20Consulting%20%28Irl%29%20L .
+
+upsilon:25506.0 a dpcat:ROPARecord;
+  terms:description "Whistleblowing service for employees";
+  dpv:hasRecipient upsilon:Navex%20Global;
+  upsilon:hasDocumentation "Navex DPA" .
+
+upsilon:30725.0 a dpcat:ROPARecord;
+  terms:description "Workday Project";
+  dpv:hasRecipient upsilon:Damien%20Kavanagh%20Project%20Management .

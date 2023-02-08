@@ -1,0 +1,3015 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix upsilon: <https://w3id.org/dpcat/examples/UPSILON/vocab#> .
+@prefix dpcat: <https://w3id.org/dpcat#> .
+@prefix dpv: <https://w3id.org/dpv/dpv-skos#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+upsilon:24933.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1";
+  terms:hasDescription "Uniphar PLC (Controller) ROPA";
+  dpv:hasPurpose "Test";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/04/2022 15:57";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:24997.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1";
+  terms:hasDescription "Human Resource Processing Activities - Uniphar PLC";
+  dpv:hasPurpose "Processing of personal data for purposes of employee management";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:15";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:24998.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.1";
+  terms:hasDescription "Onboarding new employees (Offer)";
+  dpv:hasPurpose "To make an offer of employment";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:17";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:24999.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2";
+  terms:hasDescription "Allphar Services (Controller) ROPA";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:22" .
+
+upsilon:25000.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2";
+  terms:hasDescription "Finance Activities - Uniphar PLC";
+  dpv:hasPurpose "Processing of personal data for purposes of employee management";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:24";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25001.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.1";
+  terms:hasDescription "Payables processing";
+  dpv:hasPurpose "Payables Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:24";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25002.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.3";
+  terms:hasDescription "Marketing Activities for Uniphar PLC";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:30" .
+
+upsilon:25003.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.4";
+  terms:hasDescription "Physical Security for Uniphar PLC";
+  dpv:hasPurpose "Security of Uniphar facilities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:32";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25004.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.5";
+  terms:hasDescription "Health and Safety";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:34" .
+
+upsilon:25007.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6";
+  terms:hasDescription "Quality Compliance";
+  dpv:hasPurpose "Meeting regulatory requirements for GxP";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:36";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom .
+
+upsilon:25008.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.3.1";
+  terms:hasDescription "Operation of Website (refer to corporate activities)";
+  dpv:hasPurpose "Operation of corporate website";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:37";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25010.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.4.1";
+  terms:hasDescription "Physical Security of Sites";
+  dpv:hasPurpose "Physical Security of Sites";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "450.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:38";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25011.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.1";
+  terms:hasDescription "Distribution Client Management";
+  dpv:hasPurpose "Provision of pharmacy distribution services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:40";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25012.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.2";
+  terms:hasDescription "Business Reporting to Clients of Allphar";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:44" .
+
+upsilon:25013.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3";
+  terms:hasDescription "Uniphar Wholesale ltd (Controller) ROPA";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:46" .
+
+upsilon:25014.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.1";
+  terms:hasDescription "Operation of Website";
+  dpv:hasPurpose """Operation of B2B website
+
+ sales order portal product informationcopies of financial documents for clients""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:49" .
+
+upsilon:25015.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.2";
+  terms:hasDescription "Marketing Activities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:49" .
+
+upsilon:25016.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.3";
+  terms:hasDescription "Customer Service";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:49" .
+
+upsilon:25017.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4";
+  terms:hasDescription "Warehouse and Logistics services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:52" .
+
+upsilon:25018.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5";
+  terms:hasDescription "Finance";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/04/2022 10:53" .
+
+upsilon:25050.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.4.2";
+  terms:hasDescription "Operation of CCTV system";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:40" .
+
+upsilon:25052.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.5.1";
+  terms:hasDescription "Staff Training";
+  dpv:hasPurpose "Training of staff";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:41";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25053.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6.1";
+  terms:hasDescription "Staff Training -record keeping";
+  dpv:hasPurpose "record keeping of staff training to meet contractual and regulatory obligations";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "500.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:42";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25055.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6.2";
+  terms:hasDescription "Pharma co-vigilance record keeping";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:43";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "Maintenance of records for Pharma co-vigilance purposes" .
+
+upsilon:25056.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.2";
+  terms:hasDescription "Provision of staff training";
+  dpv:hasPurpose "Tomanage and record staff  training";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:45";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25057.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.2.1";
+  terms:hasDescription "E mail communications on product updates";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:46" .
+
+upsilon:25059.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7";
+  terms:hasDescription "Information Technology Service Provision";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:50" .
+
+upsilon:25060.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3";
+  terms:hasDescription "Finance";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:51" .
+
+upsilon:25062.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.8";
+  terms:hasDescription "Legal Compliance Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:54" .
+
+upsilon:25063.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.3.1";
+  terms:hasDescription "Call Recording";
+  dpv:hasPurpose "that calls may be recorded for quality and training purposes";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:56";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "Works on  Hospital retail , Smith and Nephew and Sanofi  huntlines" .
+
+upsilon:25065.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.3.2";
+  terms:hasDescription "Operation of CRM System";
+  dpv:hasPurpose "Operation of CRM System  to handle customer order processing, and returns  for B2B customers";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:57";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25066.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.3";
+  terms:hasDescription "Employee Expense Processing";
+  dpv:hasPurpose "Payment of Expenses incurred by employees - To pay the Employee expenses that are due";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 14:58";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25067.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.2";
+  terms:hasDescription "Receivables Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:02" .
+
+upsilon:25068.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.3";
+  terms:hasDescription "Financial Reporting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:02" .
+
+upsilon:25069.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.4";
+  terms:hasDescription "Tax Reporting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:03" .
+
+upsilon:25070.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.5";
+  terms:hasDescription "Financial Compliance Reporting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:03" .
+
+upsilon:25071.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.6";
+  terms:hasDescription "Budgeting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:04" .
+
+upsilon:25072.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.7";
+  terms:hasDescription "Payroll Processing";
+  dpv:hasPurpose "Payroll processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:04";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25073.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.8";
+  terms:hasDescription "Employee Expense Processing";
+  dpv:hasPurpose "Processing of employee expenses incurred";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:04";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25074.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.9";
+  terms:hasDescription "New Supplier Onboarding";
+  dpv:hasPurpose "New Supplier Onboarding";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "200.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:05";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25075.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6.3";
+  terms:hasDescription "Quality Investigations";
+  dpv:hasPurpose "Quality Investigations - legal obligation as part of medical licence";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:07";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25076.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6.4";
+  terms:hasDescription "Quality Audits";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:07" .
+
+upsilon:25077.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6.5";
+  terms:hasDescription "Risk Management";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:07" .
+
+upsilon:25078.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6.6";
+  terms:hasDescription "Complaint Handling";
+  dpv:hasPurpose "Quality Compliant Handling in line with HPRA requirements";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:08";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25079.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6.7";
+  terms:hasDescription "Customer bona-fides evaluation";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:09" .
+
+upsilon:25080.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.9";
+  terms:hasDescription "Master Data Management";
+  dpv:hasPurpose "Creation of customers/ vendors/products/pricing on system";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:10";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25083.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.3.3";
+  terms:hasDescription "B2B Order Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:13" .
+
+upsilon:25084.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.3.4";
+  terms:hasDescription "Complaint Handling";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:16" .
+
+upsilon:25085.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4.1";
+  terms:hasDescription "Engagement of Contract Warehouse staff";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:17" .
+
+upsilon:25087.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4.2";
+  terms:hasDescription "Customer Delivery Scheduling";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:18" .
+
+upsilon:25089.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4.3";
+  terms:hasDescription "Inbound Delivery Scheduling";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:20" .
+
+upsilon:25090.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4.4";
+  terms:hasDescription "Customer Returns Handling";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:20" .
+
+upsilon:25091.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4.5";
+  terms:hasDescription "Placing of B2B Purchase Orders";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:21" .
+
+upsilon:25092.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.5.2";
+  terms:hasDescription "Health and Safety Compliance monitoring";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:22" .
+
+upsilon:25093.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.5.3";
+  terms:hasDescription "Accident reporting and investigation";
+  dpv:hasPurpose "Accident reporting and investigation - To ensure the health, safety and wellbeing of everyone  and take proactive action in line with relevant legislation";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:22";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25095.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.1";
+  terms:hasDescription "Hardware Deployment";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:27" .
+
+upsilon:25096.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.2";
+  terms:hasDescription "Software Deployment and support";
+  dpv:hasPurpose "Software Deployment and support";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:27";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25097.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.3";
+  terms:hasDescription "Back-up and Restore services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:27" .
+
+upsilon:25098.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.4";
+  terms:hasDescription "Business continuity planning";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:28" .
+
+upsilon:25099.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.5";
+  terms:hasDescription "Project Management";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:28" .
+
+upsilon:25101.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.6";
+  terms:hasDescription "Helpdesk Management";
+  dpv:hasPurpose "Helpdesk Management  dealing with Hardware and software issues";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "500.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:29";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25102.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.7";
+  terms:hasDescription "Website Support";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:29" .
+
+upsilon:25103.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8";
+  terms:hasDescription "IT Security Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:30" .
+
+upsilon:25104.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.9";
+  terms:hasDescription "Technical Training ( not done)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:30" .
+
+upsilon:25105.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.10";
+  terms:hasDescription "Development and integration of systems";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:30" .
+
+upsilon:25107.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.4";
+  terms:hasDescription "Disciplinary Process";
+  dpv:hasPurpose "conduct of Disciplinary Process";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:33";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25108.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.5";
+  terms:hasDescription "Redundancy Process";
+  dpv:hasPurpose "Redundancy Process";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:33";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25109.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.6";
+  terms:hasDescription "Fleet Management for drivers of company provided vehicles";
+  dpv:hasPurpose "Fleet Management for drivers of company provided vehicles";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:34";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25110.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.7";
+  terms:hasDescription "Illness and Absence Management";
+  dpv:hasPurpose "Illness and Absence Management";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:34";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25111.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.8";
+  terms:hasDescription "Bullying investigations";
+  dpv:hasPurpose "Bullying investigations";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "10.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:35";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25112.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.9";
+  terms:hasDescription "Industrial relations - negotiations";
+  dpv:hasPurpose "Industrial relations - negotiations";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:36";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "No personal data processed - no individual will be identified" .
+
+upsilon:25113.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.10";
+  terms:hasDescription "Wellness programme";
+  dpv:hasPurpose "Wellness programme for employees";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:36";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "No personal data processed as part of Wellness program" .
+
+upsilon:25114.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.11";
+  terms:hasDescription "Diversity programme";
+  dpv:hasPurpose "Diversity Program";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:37";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "No personal data will be processed" .
+
+upsilon:25115.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.12";
+  terms:hasDescription "Learning and Development";
+  dpv:hasPurpose "Learning and Development program for employees   to encompass educational training and employee development programs";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:37";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25116.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.13";
+  terms:hasDescription "Compensation and Benefits Admin";
+  dpv:hasPurpose "Compensation and Benefits Admin";
+  dpv:hasProfiling "Yes";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:38";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25117.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.14";
+  terms:hasDescription "Salary and Bonus Review";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:38" .
+
+upsilon:25118.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.15";
+  terms:hasDescription "Performance Management";
+  dpv:hasPurpose "Employee performance management/ development / motivation";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:38";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25119.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.16";
+  terms:hasDescription "Employee onboarding";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:39" .
+
+upsilon:25121.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.17";
+  terms:hasDescription "Staff Recruitment ( Internal Roles)";
+  dpv:hasPurpose "Staff Recruitment for Internal Roles";
+  dpv:hasProfiling "Yes";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:40";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes """27/06/2022 Currently  outsourced to Star Outico, but migrating to Central recruitment function  via workday  q3 2022  
+07/07/2022 now centralised using Occupop""" .
+
+upsilon:25122.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.18";
+  terms:hasDescription "Staff Recruitment ( Internal Roles) - Sourcing staff";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:40" .
+
+upsilon:25123.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.19";
+  terms:hasDescription "Interview of candidates";
+  dpv:hasPurpose "Interview of  candidates";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:41";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25125.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.20";
+  terms:hasDescription "Pre Employment Screening (references)";
+  dpv:hasPurpose "Pre Employment Screening (references)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:42";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25126.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.21";
+  terms:hasDescription "Pre Employment Screening ( Health Check)";
+  dpv:hasPurpose "Pre Employment Screening ( Health Check)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 15:42";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25127.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.8.1";
+  terms:hasDescription "Data Protection Compliance";
+  dpv:hasPurpose "Data Protection Compliance";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 16:37" .
+
+upsilon:25128.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.8.2";
+  terms:hasDescription "Data Protection Compliance Office Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/04/2022 16:38" .
+
+upsilon:25169.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.22";
+  terms:hasDescription "Desk Booking and meeting room booking Service";
+  dpv:hasPurpose "Requirement for a desk and meeting room booking solution forCitywest solution";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "21/04/2022 10:52";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "10052022 - Robin can work with SSO, further investigation required" .
+
+upsilon:25184.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4";
+  terms:hasDescription "Uniphar PLC (Processor) ROPA";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:47" .
+
+upsilon:25185.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5";
+  terms:hasDescription "Allphar Services (Processor) ROPA";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:51" .
+
+upsilon:25186.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1";
+  terms:hasDescription "Distribution / Patient Service Management";
+  dpv:hasPurpose "Provision of pharmacy distribution services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:51";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25187.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.2";
+  terms:hasDescription "Distribution Services (B2B)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:51" .
+
+upsilon:25188.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.3";
+  terms:hasDescription "Finance( inactive)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:51" .
+
+upsilon:25190.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6";
+  terms:hasDescription "Uniphar Wholesale ltd (Processor) ROPA (Copy)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:53" .
+
+upsilon:25192.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.1";
+  terms:hasDescription "Marketing Activities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:53" .
+
+upsilon:25193.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.2";
+  terms:hasDescription "Customer Service";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:53" .
+
+upsilon:25194.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.3";
+  terms:hasDescription "Warehouse services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:53" .
+
+upsilon:25195.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.4";
+  terms:hasDescription "Finance";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:53" .
+
+upsilon:25200.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.3.1";
+  terms:hasDescription "Warehouse services for Dr. Hauschka Ireland";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/04/2022 14:53" .
+
+upsilon:25209.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.11";
+  terms:hasDescription "Network architecture management";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "25/04/2022 10:12" .
+
+upsilon:25223.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.12";
+  terms:hasDescription "Mobile Device provision and support";
+  dpv:hasPurpose "Provision of mobile devices to employees";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "26/04/2022 15:45";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25224.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.23";
+  terms:hasDescription "Employee Leave management";
+  dpv:hasPurpose "management of employee leave";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "26/04/2022 16:26";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25252.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.1";
+  terms:hasDescription "99198_Fres Kabi Oncology_Fres Kabi Oncology Distribution";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/04/2022 15:11";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25260.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.2.1";
+  terms:hasDescription "HIPRA UK AND IRELAND Ltd. Distribution service";
+  dpv:hasPurpose "Provide a Wholesale  & Distribution of Medical and Veterinary products service on behalf of the controller;";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "10.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/04/2022 15:23";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "No DPA required as Allphar services only process B2B communication data of the controllers employees only, for contract fulfilment activities" .
+
+upsilon:25271.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.2.2";
+  terms:hasDescription "company 2";
+  dpv:hasPurpose "Provide a Wholesale  & Distribution of Medical and Veterinary products service on behalf of the controller;";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "10.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "28/04/2022 14:51";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25272.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.8.3";
+  terms:hasDescription "Legal Counsel support";
+  dpv:hasPurpose "Legal services to affiliates";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "28/04/2022 15:47";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25504.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.24";
+  terms:hasDescription "Organisation of business travel";
+  dpv:hasPurpose "To manage Employee related travel for businessand social events related to the business";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu May 05 16:20:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom%2C%20United%20States%2C%20European%20Data%20Protection%20Board .
+
+upsilon:25506.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.25";
+  terms:hasDescription "Whistleblowing service for employees";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu May 05 16:35:00 BST 2022" .
+
+upsilon:25603.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7";
+  terms:hasDescription "Dr. Hauschka Ireland (Controller)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 13:44:00 BST 2022" .
+
+upsilon:25604.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7.1";
+  terms:hasDescription "Human Resources - No staff employed";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 13:45:00 BST 2022" .
+
+upsilon:25605.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7.2";
+  terms:hasDescription "Finance services provided by Uniphar Wholesale";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 13:45:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25606.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7.3";
+  terms:hasDescription "Web Site Operation";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 13:45:00 BST 2022";
+  upsilon:Notes "build on a Presta shop platform - discussion about moving to shopify" .
+
+upsilon:25607.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7.4";
+  terms:hasDescription "Warehouse services - provided by Uniphar wholesale";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 13:46:00 BST 2022" .
+
+upsilon:25608.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7.5";
+  terms:hasDescription "Logistics services (DPD)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 13:46:00 BST 2022" .
+
+upsilon:25609.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7.6";
+  terms:hasDescription "Marketing services - provided by Uniphar Wholesale";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 13:46:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25610.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.1.1";
+  terms:hasDescription "Marketing services to Dr Huestra";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 13:50:00 BST 2022" .
+
+upsilon:25611.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7.3.1";
+  terms:hasDescription "Web Technical Support provided by Uniphar Wholesale";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 14:01:00 BST 2022" .
+
+upsilon:25612.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "7.3.2";
+  terms:hasDescription "Operation of Website B2C";
+  dpv:hasPurpose "Operation of Website B2C";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 14:02:00 BST 2022" .
+
+upsilon:25622.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.3.2";
+  terms:hasDescription "Warehouse services for Allphar Services Ireland";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 14:19:00 BST 2022" .
+
+upsilon:25623.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.2.1";
+  terms:hasDescription "Customer services for Allphar Services Ireland";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 14:20:00 BST 2022" .
+
+upsilon:25624.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.2.2";
+  terms:hasDescription "Customer services for Dr. Hauschka Ireland";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 14:21:00 BST 2022" .
+
+upsilon:25625.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.4.1";
+  terms:hasDescription "Finance Services for Dr. Hauschka Ireland";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Sep 05 14:24:00 BST 2022" .
+
+upsilon:25627.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.6.8";
+  terms:hasDescription "Manufacturing services (Qualified Person)";
+  dpv:hasPurpose "Manufacturing services (Qualified Person)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Wed Oct 05 08:09:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25628.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.2.1";
+  terms:hasDescription "BCT Support";
+  dpv:hasPurpose "Support of BCT system";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Wed Oct 05 08:31:00 BST 2022" .
+
+upsilon:25701.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.26";
+  terms:hasDescription "Onboarding new employees (Induction)";
+  dpv:hasPurpose "To onboard the employee when they beginemployment";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "17/05/2022 13:15";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25729.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.2.2";
+  terms:hasDescription "Support SQL databases Iwacs and Iwacs Lite";
+  dpv:hasPurpose "Version1 support ourSQL databases and IWACS citywest / lite database. Personal data in this instance involves IT Team members (Piot , Neville, ICT & Engineering)first/last name, their job title and business email/telephone/mobile number.";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "10.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "18/05/2022 20:57";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:India .
+
+upsilon:25982.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.1";
+  terms:hasDescription "Identity Access Control";
+  dpv:hasPurpose "ensure only authenticated individuals can access Uniphar systems";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/05/2022 15:45";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:25983.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.2";
+  terms:hasDescription "Vulnerability Testing";
+  dpv:hasPurpose "Vulnerability Testing to identify security risks";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/05/2022 15:45";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26203.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.1.1";
+  terms:hasDescription "Operate B2B Website - Uniphar Wholesale";
+  dpv:hasPurpose "B2B website E-Commerce & Customer service";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1500.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/05/2022 15:20";
+  upsilon:Notes "supported by monsoon  on Magento 1.14" .
+
+upsilon:26204.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.1.2";
+  terms:hasDescription "Operate B2C Website AYA ( not yet active)";
+  dpv:hasPurpose "B2C website , e-commerce for Aya Brand";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/05/2022 15:20";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26205.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.5";
+  terms:hasDescription "Operate B2C website Dr Hauschka";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/05/2022 15:22" .
+
+upsilon:26218.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.10";
+  terms:hasDescription "Corporate and Investor Activities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "24/05/2022 08:34" .
+
+upsilon:26219.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.10.1";
+  terms:hasDescription "Operation of Corporate Website";
+  dpv:hasPurpose "provide information on Uniphar PLC to investors and potential clients";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "24/05/2022 08:36";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26300.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.2.3";
+  terms:hasDescription "Support Oracle Databases";
+  dpv:hasPurpose """Support Oracle Databases 
+
+(oracle database only hold WMS data)""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "10.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "31/05/2022 13:47";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26307.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.8.4";
+  terms:hasDescription "M&A due diligence";
+  dpv:hasPurpose "Conduct due diligence on potential M&A companies";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "Yes";
+  terms:created "Thu Jan 06 09:27:00 GMT 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26378.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.13";
+  terms:hasDescription "Process Automation";
+  dpv:hasPurpose "Business Process automation";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Sat Aug 06 17:05:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26382.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.1";
+  terms:hasDescription "Customer benefits management";
+  dpv:hasPurpose "management of customer discounts";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "2000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Sep 06 12:16:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26384.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4.6";
+  terms:hasDescription "Pick and pack customer orders";
+  dpv:hasPurpose "Pick and Pack of customer orders";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Sep 06 12:26:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26389.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.2.4";
+  terms:hasDescription "Support Microsoft 365 environment";
+  dpv:hasPurpose "Provide support to users of Microsoft 365 environment";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "10.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Sep 06 15:53:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom .
+
+upsilon:26410.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.2.3";
+  terms:hasDescription "company 2 (Copy)";
+  dpv:hasPurpose "Provide a Wholesale  & Distribution of Medical and Veterinary products service on behalf of the controller;";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "10.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:46:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26411.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.2";
+  terms:hasDescription "99199_Fresenius Kabi EN_Fresenius Kabi EN_Cestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:47:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26412.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.3";
+  terms:hasDescription "99158_Fresenius Kabi Limited_Fresenius Kabi Limited_Crestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:48:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26413.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.4";
+  terms:hasDescription "99201_Fresenius Kabi PN_Fresenius Kabi PN_Cestrian Court, Eastgate Way_Manor Park____Runcorn_CH_WA7 1NT_GB";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:49:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26414.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.5";
+  terms:hasDescription "99222_FRESENIUS KABI SAMPLES & PUMPS_FRESENIUS KABI SAMPLES & PUMPS_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:50:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26415.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.6";
+  terms:hasDescription "99284_Fresenius Kabi St Solutions_Fresenius Kabi St Solutions______Runcorn_CH_WA7 1NT_GB";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:51:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26416.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.7";
+  terms:hasDescription "99326_Ascensia Diabetes Care Ireland Ltd_Ascensia Diabetes Care Ireland Ltd__4045 Kingswood Road_Citywest Business Park___Dublin_DB_24_IE";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:51:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26417.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.8";
+  terms:hasDescription "99309_CARAGEN LIMITED_CARAGEN LIMITED__1st Floor, Suite 32 The Mall_Beacon Court___Sandyford_DB_D18 AYF3_IE";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:52:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26418.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.9";
+  terms:hasDescription "99223_FRESENIUS KABI ANCILLARIES_FRESENIUS KABI ANCILLARIES_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:52:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26419.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.1.10";
+  terms:hasDescription "99227_FRESENIUS KABI PEDIATRIC_FRESENIUS KABI PEDIATRIC_Cestrian Court___Eastgate Way__Runcorn_CH_WA7 1NT_GB";
+  dpv:hasPurpose """\"Provision of healthcare in  the community setting,  Direct to Patient Home Delivery Services,   Nurse Led Support services  and education Programmes to Patients in their homes and in community based facilities. These services include Home IV Infusion Services e.g. IV antibiotics in the home and a range of other clinical support services including waste services, refrigeration and pump services. Direct to Patient Home Delivery Services including Pharmacy Dispensing and the supply of prescribed medications. Allphar also provide a Wholesale  & Distribution of Medical products service on behalf of the controller
+
+
+\"""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Oct 06 15:53:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26436.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.27";
+  terms:hasDescription "Maintenance of HR records";
+  dpv:hasPurpose "Maintenance of HR records";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "5000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/06/2022 15:02";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26808.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.10.2";
+  terms:hasDescription "Acquisition due diligence";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/06/2022 11:17";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:Australia%2C%20United%20Kingdom%2C%20United%20States;
+  upsilon:Notes "Conduct due diligence of acquisition target companies" .
+
+upsilon:26810.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.3";
+  terms:hasDescription "E-mail security";
+  dpv:hasPurpose "Protection of corporate systems from cyber threats that may enter  via e-mail system";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "600.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/06/2022 13:12";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26829.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.5.4";
+  terms:hasDescription "Conduct Risk assessments";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/06/2022 12:24" .
+
+upsilon:26917.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.5.1";
+  terms:hasDescription "S4Hanna Project";
+  dpv:hasPurpose "Project management of SAP4Hanna Project";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 10:57";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26918.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.5.2";
+  terms:hasDescription "Contract Review Project";
+  dpv:hasPurpose "Review of vendor contracts for possible savings";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 10:59";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "no personal data processed" .
+
+upsilon:26919.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.5.3";
+  terms:hasDescription "Cybersecurity Project Management";
+  dpv:hasPurpose "Cybersecurity Project Management  Improvements";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 11:00";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26920.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.4.1";
+  terms:hasDescription "Resilience plan for Key activities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 11:02" .
+
+upsilon:26921.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.4.2";
+  terms:hasDescription "Resilience plan for non-key activities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 11:03" .
+
+upsilon:26922.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.3.1";
+  terms:hasDescription "online back-ups of Warehouse and SAP systems";
+  dpv:hasPurpose "create back up files of  key systems in case of emergency";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 11:04";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26923.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.3.2";
+  terms:hasDescription "Cloud Back up of Microsoft windows and oracle environment";
+  dpv:hasPurpose "Disaster recovery contingency";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 11:05";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26924.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.2.5";
+  terms:hasDescription "Support SAP systems";
+  dpv:hasPurpose "Support SAP systems";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 11:06";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:26925.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.6.1";
+  terms:hasDescription "Manage support tickets";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 11:06" .
+
+upsilon:26926.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.4";
+  terms:hasDescription "Security awareness education";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/06/2022 11:08" .
+
+upsilon:27191.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.5";
+  terms:hasDescription "System log monitoring";
+  dpv:hasPurpose "Monitoring of network logs for security purposes to identify suspicious activities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "500.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 14:45:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:27192.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4.1";
+  terms:hasDescription "HR services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 15:51:00 BST 2022" .
+
+upsilon:27193.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4.2";
+  terms:hasDescription "IT Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 15:52:00 BST 2022" .
+
+upsilon:27195.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4.3";
+  terms:hasDescription "Payroll Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 15:53:00 BST 2022" .
+
+upsilon:27196.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4.4";
+  terms:hasDescription "Legal Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 15:53:00 BST 2022" .
+
+upsilon:27197.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4.5";
+  terms:hasDescription "Quality Compliance Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 15:54:00 BST 2022" .
+
+upsilon:27198.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4.6";
+  terms:hasDescription "Data Protection Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 15:54:00 BST 2022" .
+
+upsilon:27199.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4.7";
+  terms:hasDescription "Health and Safety Services";
+  dpv:hasPurpose "Health and Safety Services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 15:55:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:27200.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.4";
+  terms:hasDescription "HR services (outsourced to Uniphar wholesale)";
+  dpv:hasPurpose "HR services";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 17:09:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "All HR services in Allphar Services are outsourced to Uniphar Wholesale" .
+
+upsilon:27201.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.5";
+  terms:hasDescription "IT Services ( Outsourced to Uniphar PLC)";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Apr 07 17:13:00 BST 2022" .
+
+upsilon:27202.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.28";
+  terms:hasDescription "On Boarding New employee set up";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Sat May 07 14:19:00 BST 2022" .
+
+upsilon:27206.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "4.8";
+  terms:hasDescription "HR Managed Services to non group entities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Jun 07 10:53:00 BST 2022" .
+
+upsilon:27221.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.10";
+  terms:hasDescription "Treasury Management";
+  dpv:hasPurpose "Treasury Management - managing of corporate bank accounts";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "200.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Nov 07 11:12:00 GMT 2022";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:Germany%2C%20Netherlands%2C%20Sweden%2C%20United%20Kingdom%2C%20United%20States;
+  upsilon:Notes "No personal data processed" .
+
+upsilon:27710.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6";
+  terms:hasDescription "Order Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 13:16" .
+
+upsilon:27711.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6.1";
+  terms:hasDescription "PIMS Order Processing via Celtrino";
+  dpv:hasPurpose "PIMS Order Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 13:16";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:27712.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6.2";
+  terms:hasDescription "Marketplace Optimum via Celtrino";
+  dpv:hasPurpose "Order processing - Marketplace Optimum";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 13:17" .
+
+upsilon:27713.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6.3";
+  terms:hasDescription "EDI orders via Celtrino";
+  dpv:hasPurpose "Order processing  via EDI orders";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 13:17";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:27715.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6.4";
+  terms:hasDescription "SAP Orders";
+  dpv:hasPurpose "SAP Orders";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 13:18";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:27716.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6.5";
+  terms:hasDescription "BCT Orders";
+  dpv:hasPurpose "Sales order processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "2000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 13:18" .
+
+upsilon:27717.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6.6";
+  terms:hasDescription "Web Orders";
+  dpv:hasPurpose "Web Orders";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 13:18" .
+
+upsilon:27718.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6.7";
+  terms:hasDescription "OCR Orders";
+  dpv:hasPurpose "Order processing using   OCR Orders";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 13:19";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:27719.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.4.3";
+  terms:hasDescription "Back up of servers";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 15:07" .
+
+upsilon:27720.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.4.4";
+  terms:hasDescription "Back up of azure";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/07/2022 15:10" .
+
+upsilon:27810.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "6.3.3";
+  terms:hasDescription "Warehouse Services for Durbin Ireland";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "26/07/2022 10:14" .
+
+upsilon:28026.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.5.4";
+  terms:hasDescription "General Project Management";
+  dpv:hasPurpose "Project management activities";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "27/07/2022 12:51" .
+
+upsilon:29307.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.11";
+  terms:hasDescription "Central Recruitment for Internal roles";
+  dpv:hasPurpose "recruitment to fill internal roles";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 15:50:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:29309.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.1";
+  terms:hasDescription "Payables processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 15:59:00 BST 2022" .
+
+upsilon:29310.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.2";
+  terms:hasDescription "Receivables Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 15:59:00 BST 2022" .
+
+upsilon:29311.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.3";
+  terms:hasDescription "Financial Reporting";
+  dpv:hasPurpose "financial reporting as per legal obligation";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 15:59:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Arab%20Emirates .
+
+upsilon:29313.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.4";
+  terms:hasDescription "Financial Compliance Reporting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:00:00 BST 2022" .
+
+upsilon:29314.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.5";
+  terms:hasDescription "Budgeting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:00:00 BST 2022" .
+
+upsilon:29315.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.6";
+  terms:hasDescription "Payroll Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:00:00 BST 2022" .
+
+upsilon:29317.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.7";
+  terms:hasDescription "Employee Expense Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:01:00 BST 2022" .
+
+upsilon:29318.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.8";
+  terms:hasDescription "New Supplier Onboarding";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:01:00 BST 2022" .
+
+upsilon:29319.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.9";
+  terms:hasDescription "Treasury Management";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:01:00 BST 2022" .
+
+upsilon:29320.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.2";
+  terms:hasDescription "Payables processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:02:00 BST 2022" .
+
+upsilon:29321.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.3";
+  terms:hasDescription "Receivables Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:02:00 BST 2022" .
+
+upsilon:29322.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.4";
+  terms:hasDescription "Financial Reporting";
+  dpv:hasPurpose "Financial book keeping as required by law";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:02:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom .
+
+upsilon:29323.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.5";
+  terms:hasDescription "Tax Reporting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:02:00 BST 2022" .
+
+upsilon:29324.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.6";
+  terms:hasDescription "Financial Compliance Reporting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:02:00 BST 2022" .
+
+upsilon:29325.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.7";
+  terms:hasDescription "Budgeting";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:03:00 BST 2022" .
+
+upsilon:29326.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.8";
+  terms:hasDescription "Payroll Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:03:00 BST 2022" .
+
+upsilon:29327.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.9";
+  terms:hasDescription "Employee Expense Processing";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:03:00 BST 2022" .
+
+upsilon:29328.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.10";
+  terms:hasDescription "New Supplier Onboarding";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:03:00 BST 2022" .
+
+upsilon:29329.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.5.11";
+  terms:hasDescription "Treasury Management";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:03:00 BST 2022" .
+
+upsilon:29330.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "2.3.10";
+  terms:hasDescription "Tax Reporting";
+  dpv:hasPurpose "financial reporting as per legal obligation";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Fri Apr 08 16:24:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Arab%20Emirates .
+
+upsilon:29673.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.6";
+  terms:hasDescription "Data sensitivity cataloging";
+  dpv:hasPurpose "the labelling of documents will trigger enhanced security features and will aid the protection of confidential data";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Thu Sep 08 12:10:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:29789.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.11.1";
+  terms:hasDescription "Network Segmentation";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Nov 08 15:24:00 GMT 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:29790.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.11.2";
+  terms:hasDescription "AIX resiliency";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Nov 08 15:27:00 GMT 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:29791.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.11.3";
+  terms:hasDescription "Cloud storage";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Nov 08 15:27:00 GMT 2022" .
+
+upsilon:29792.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.14";
+  terms:hasDescription "Operation of Intranet";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Nov 08 15:37:00 GMT 2022" .
+
+upsilon:29820.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.15";
+  terms:hasDescription "Implementation of SSO";
+  dpv:hasPurpose """Single sign-on (SSO) is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.
+True single sign-on allows the user to log in once and access services without re-entering authentication factors.""";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "500.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/08/2022 10:09";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom .
+
+upsilon:29837.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.2.6";
+  terms:hasDescription "PIMS Order Processing - SAP Interface Channel";
+  dpv:hasPurpose "Support of order channel";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "16/08/2022 09:38";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "Orders come from Uniphar customers to Celtrino EDI system operated by Celtrino.  This process is hosted on black knight servers ( cloud based) where conversion activities happen  before passing to Uniphar servers" .
+
+upsilon:29872.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.3.3";
+  terms:hasDescription "Online Back up of Microsoft windows and oracle environment";
+  dpv:hasPurpose "Disaster recovery contingency - online";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "17/08/2022 12:28";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "Online backup to 2 x server rooms - HPE simplivity" .
+
+upsilon:29873.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.3.4";
+  terms:hasDescription "Cloud back-ups of Warehouse and SAP systems";
+  dpv:hasPurpose "create back up files of  key systems in case of emergency";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "17/08/2022 12:43";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "DPO note 23082022 There are No offline back ups  of warehouse or sap system Kyndryl are currently Looking for an offline backup solution" .
+
+upsilon:29907.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.11.1";
+  terms:hasDescription "Sourcing of Candidates";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/08/2022 10:37" .
+
+upsilon:29908.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.11.2";
+  terms:hasDescription "Storage of candidate data";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/08/2022 10:37" .
+
+upsilon:29909.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.11.3";
+  terms:hasDescription "Review of Candidates applications for roles";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/08/2022 10:38" .
+
+upsilon:29910.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.11.4";
+  terms:hasDescription "Conduct Interviews of candidates";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/08/2022 10:41" .
+
+upsilon:29911.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.11.5";
+  terms:hasDescription "Selection / rejection process";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/08/2022 10:42" .
+
+upsilon:29912.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.11.6";
+  terms:hasDescription "Communicate with Candidates";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/08/2022 10:44" .
+
+upsilon:29913.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.11.7";
+  terms:hasDescription "Communicate with Recruiting Manager";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/08/2022 10:45" .
+
+upsilon:30634.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.2.7";
+  terms:hasDescription "SAP Archiving Process";
+  dpv:hasPurpose "Remove SAP data from front end database, where it reduces impact on system performance but is still retreivable";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Aug 09 12:16:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:30635.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.6.8";
+  terms:hasDescription "DOE Order placing";
+  dpv:hasPurpose "Order processing with community pharmacy customers";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Aug 09 12:36:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:30636.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4.7";
+  terms:hasDescription "Gather Proof of Delivery";
+  dpv:hasPurpose "Confirm delivery of orders";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "2000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Aug 09 12:52:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:30637.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "5.4";
+  terms:hasDescription "Business Reporting to clients";
+  dpv:hasPurpose "Business Reporting to clients";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "No";
+  dpv:hasProcessor "Yes";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Tue Aug 09 13:03:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:30723.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.29";
+  terms:hasDescription "Staff recruitment Equal Opportunities Monitoring";
+  dpv:hasPurpose "to promoting a positive workplace environment and to eliminate any form of discrimination that has the intention to cause harm to our team members, colleagues, stakeholders and any other person that we interact with.";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/09/2022 13:38";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom;
+  upsilon:Notes "All information is anonymized and is only available in two instances: By running a report on the questions, which removes the names of the people, or in the instance that they are hired into the company, in which case the only people who have access to that information are the selected HR people as per security groupings." .
+
+upsilon:30725.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.5.5";
+  terms:hasDescription "Workday Project";
+  dpv:hasPurpose "Project Management for implementation of workday";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/09/2022 16:45";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:30920.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.7";
+  terms:hasDescription "Privilege Access Management";
+  dpv:hasPurpose "Real-time Privilege Account Exposure Visibility, Continuous Lateral Movement Attack Prevention and Persistent Stolen Credential Protection";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/09/2022 09:53";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:30923.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.8";
+  terms:hasDescription "End Point Protection and detection - Anti-Malware";
+  dpv:hasPurpose "Security of processing - prevent cyber attacks progressing through system";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/09/2022 10:07";
+  dpv:hasJurisdiction upsilon:Ireland;
+  upsilon:Notes "No personal data processed" .
+
+upsilon:30926.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.1.1";
+  terms:hasDescription "Asset Management Tracking";
+  dpv:hasPurpose "Maintain an inventory of IT assets , for patching, updating , monitoring, security";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "23/09/2022 10:52";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:31172.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.30";
+  terms:hasDescription "Pension administration";
+  dpv:hasPurpose "Payment of pension contributions";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "450.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/10/2022 16:19";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:31173.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.31";
+  terms:hasDescription "Private health Payment processing";
+  dpv:hasPurpose "Processing of Private health requirements of employees";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/10/2022 16:49";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:32400.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "3.4.8";
+  terms:hasDescription "Delivery of Customer Orders";
+  dpv:hasPurpose "Delivery of Customer Orders";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "4000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "19/10/2022 10:16";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:32412.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.32";
+  terms:hasDescription "Health assessment - fitness to work";
+  dpv:hasPurpose "carry out Health assessments to evaluate fitness to work";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "50.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/10/2022 14:44";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:32413.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.2.11";
+  terms:hasDescription "Conduct Financial Audit";
+  dpv:hasPurpose "legal obligation to conduct financial audit annually";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "3000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/10/2022 14:56";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:32414.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.33";
+  terms:hasDescription "Operate Cycle to Work Scheme";
+  dpv:hasPurpose "Operate Cycle to Work Scheme";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "200.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "20/10/2022 15:12";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:32629.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.5.6";
+  terms:hasDescription "Cloud Architecture Migration Design";
+  dpv:hasPurpose "Design Cloud Architecture Migration plan";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "Mon Jul 11 16:01:00 BST 2022";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:32697.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.1.34";
+  terms:hasDescription "Monitor employee time and attendance";
+  dpv:hasPurpose "Employee time and attendance monitoring";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "300.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "15/11/2022 16:01";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:32767.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.9";
+  terms:hasDescription "Secure File Share service";
+  dpv:hasPurpose "Provide service to enable Secure File Share service outside the organization";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "24/11/2022 15:16";
+  dpv:hasJurisdiction upsilon:Ireland .
+
+upsilon:32768.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.16";
+  terms:hasDescription "Patch monitoring and delivery";
+  dpv:hasPurpose "Patch My PC helps organizations using Microsoft Configuration Manager or Microsoft Intune keep their third-party applications up-to-date";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "0.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "24/11/2022 15:30";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom .
+
+upsilon:32769.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.10";
+  terms:hasDescription "Managed Detection and Response";
+  dpv:hasPurpose "Managed Detection and Response - Complete visibility of our digital world. Visualise and understand malicious or anomalous activity. Analyse, prioritise and respond to threats in rapid time. Safeguard your data, people and processes.";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "1000.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "24/11/2022 15:37";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom .
+
+upsilon:33412.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.10.3";
+  terms:hasDescription "Operate Newsletter for Corporate Investors";
+  dpv:hasPurpose "Newsletter for corporate investors";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "13/12/2022 13:25";
+  dpv:hasJurisdiction upsilon:Ireland, upsilon:United%20Kingdom .
+
+upsilon:33495.0 a dpcat:ROPARecord;
+  dpv:hasIdentifier "1.7.8.11";
+  terms:hasDescription "Password Management services";
+  dpv:hasPurpose "Provision of service to assist with security of passwords";
+  dpv:hasProfiling "No";
+  dpv:hasDataSubject "100.0";
+  dpv:hasDataController "Yes", "No";
+  dpv:hasProcessor "No";
+  dpv:hasRepresentative "No";
+  dpv:hasRecipient "No";
+  terms:created "22/12/2022 16:20";
+  dpv:hasJurisdiction upsilon:Ireland .
